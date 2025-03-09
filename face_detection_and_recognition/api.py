@@ -3,7 +3,8 @@ import cv2
 import mediapipe as mp
 import face_recognition
 import numpy as np
-from face_utils import detect_faces, recognize_face  # Importing functions from the utility file
+from face_utils import  recognize_face  
+from face_detection import detect_faces
 
 app = FastAPI()
 
