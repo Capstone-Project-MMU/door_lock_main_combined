@@ -3,3 +3,4 @@ insightface
 faiss-cpu 
 numpy 
 opencv-python
+PIL
