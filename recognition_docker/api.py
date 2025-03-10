@@ -4,7 +4,7 @@ import mediapipe as mp
 import face_recognition
 import numpy as np
 from face_utils import recognize_face  
-from face_detection import detect_faces
+#uvicorn api:app --host 0.0.0.0 --port 8082
 
 app = FastAPI()
 
