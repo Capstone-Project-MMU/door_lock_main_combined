@@ -2,6 +2,7 @@ import cv2
 import time
 import requests
 import os
+#python camera_capture.py
 
 # Define the endpoint
 url = "http://localhost:8080/detect"
@@ -30,8 +31,10 @@ while True:
 
     # Send images to the server
     try:
-        files = [("images", (img, open(img, "rb"), "image/jpeg")) for img in images]
-        response = requests.post(url, file=files)
+        
+        files = [("file", (img, open(img, "rb"), "image/jpeg")) for img in images]
+
+        response = requests.post(url, files=files)
 
         print(f"Server response: {response.status_code} - {response.text}")
 
