@@ -68,4 +68,7 @@ def apply_filters(image_path, output_dir):
     print(f"Filters applied and images saved in {output_dir}")
 
 # Run the function
-apply_filters("moh.png", "images_with_filters")
+# apply_filters("moh.png", "images_with_filters")
+
+if __name__ == "__main__":
+    pass

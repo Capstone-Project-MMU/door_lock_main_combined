@@ -55,6 +55,9 @@ def search_face(query_image_path, k=5):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-# Example Usage
+# # Example Usage
 image_path = "moh.png"
 search_face(image_path)
+
+# if __name__ == "__main__":
+#     pass

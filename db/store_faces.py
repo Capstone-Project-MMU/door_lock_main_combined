@@ -56,5 +56,8 @@ def store_face(image_path):
     print(f"Stored: {new_filename}")
 
 # Example Usage
-image_path = "moh.png"
-store_face(image_path)
+# image_path = "moh.png"
+# store_face(image_path)
+
+if __name__ == "__main__":
+    pass
