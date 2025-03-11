@@ -6,3 +6,5 @@ opencv-python
 pillow 
 fastapi
 uvicorn
+pytest-shutil
+python-multipart
