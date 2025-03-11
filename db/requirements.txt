@@ -1,10 +1,8 @@
-os
-cv2
 onnxruntime 
 insightface 
 faiss-cpu 
 numpy 
 opencv-python
-pillow ### Changed from PIL to pillow
+pillow 
 fastapi
 uvicorn
