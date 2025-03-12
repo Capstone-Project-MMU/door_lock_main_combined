@@ -1,4 +1,12 @@
 fastapi
 uvicorn
 pytest-shutil
+requests
+opencv-python
+faiss-cpu
+numpy
+pillow
+insightface
+onnxruntime
+python-multipart
 
