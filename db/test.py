@@ -1,30 +1,31 @@
 import requests
 
-API_URL = "http://127.0.0.1:8085"  # Change this if needed
+API_URL = "http://127.0.0.1:8084"  # Change this if needed
 
-def send_post_request(endpoint, image_path, data):
+def send_post_request(endpoint, image_path, data=None, params=None):
     """Sends a POST request with an image to a given endpoint."""
-    files = {"image": image_path}
-    response = requests.post(f"{API_URL}/{endpoint}", files=files, data=data)
+    with open(image_path, "rb") as file:
+        files = {"image": file}
+        response = requests.post(f"{API_URL}/{endpoint}", files=files, data=data, params=params)
     
     print(f"Response from {endpoint}: {response.status_code}")
     print(response.json())
 
 # Provide the full path to the image
-# TEST_IMAGE_PATH = "moh.png"  # Replace with your image path
+TEST_IMAGE_PATH = "moh.png"  # Replace with your image path
 # TEST_PERSON_NAME = "Mohamed"
-# files = {"image": TEST_IMAGE_PATH}
-# data = {"person_name": TEST_PERSON_NAME}
+# files = {"image": open(TEST_IMAGE_PATH, "rb")}
+# store_data = {"person_name": TEST_PERSON_NAME, "apply_filter": "true"}
+# # add_filters_data = {"person_name": "Mohamed"}
+# store_url = "http://127.0.0.1:8085/store"
+
+
 
 # Test API endpoints
-# send_post_request("add-filters", image_path)
+# send_post_request("add-filters", TEST_IMAGE_PATH, add_filters_data)
 # send_post_request("store", TEST_IMAGE_PATH, data=data)
-url = "http://127.0.0.1:8085/store"
-files = {"image": open("moh.png", "rb")}
-data = {"person_name": "mohtady", "apply_filter": "false"}
-
-response = requests.post(url, files=files, data=data)
-
-print(response.text)
-# send_post_request("search", image_path, params={"k": 5})
+'''results in an internal server error because it can't open faiss_db/filtered_face_index.faiss 
+so i left it alone. Does save correctly image correclty'''
+# response = requests.post(store_url, files=files, data=store_data) 
+send_post_request("search", TEST_IMAGE_PATH, params={"k": 5})
 
