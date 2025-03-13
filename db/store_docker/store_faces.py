@@ -5,7 +5,7 @@ import faiss
 from insightface.app import FaceAnalysis
 
 # Directory for storing face images
-IMAGE_DIR = "images_with_filters"
+IMAGE_DIR = "../images_with_filters"
 os.makedirs(IMAGE_DIR, exist_ok=True)
 
 # FAISS index setup
