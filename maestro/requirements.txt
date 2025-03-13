@@ -4,12 +4,5 @@ httpx
 opencv-python 
 requests
 python-multipart
-uvicorn
-fastapi
-faiss-cpu
-insightface
-onnxruntime
-mediapipe
-face_recognition
-git+https://github.com/ageitgey/face_recognition_models
+
 

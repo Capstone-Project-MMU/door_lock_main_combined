@@ -3,6 +3,8 @@ import shutil
 import os
 from search_faces import search_face
 #uvicorn api:app --host 0.0.0.0 --port 8084
+#docker build -t face-rec-api .
+#docker run -p 8084:8084 face-rec-api
 
 
 app = FastAPI()

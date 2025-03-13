@@ -7,6 +7,9 @@ from store_faces import store_face
 import uvicorn
 from fastapi import APIRouter
 from time import sleep
+#uvicorn api:app --host 0.0.0.0 --port 8085
+#docker build -t face-rec-api .
+#docker run -p 8085:8085 face-rec-api
 
 app = FastAPI()
 

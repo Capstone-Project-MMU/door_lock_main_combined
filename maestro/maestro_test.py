@@ -1,6 +1,8 @@
 
-from maestro_api import app
+from api import app
 import requests
+
+### uvicorn api:app --reload --host 127.0.0.1 --port 8080
 
 test_image = "moh.png"
 URL = "http://127.0.0.1:8080"
@@ -30,8 +32,6 @@ def test_search_face():
         response = requests.post(f"{URL}/search", files={"image": (test_image, image, "image/jpeg")}, data={"k": 5})
     return response
 
-test_detect()
-# test_recognize()
 # test_add_filters()
 # test_store_face()
 # test_search_face()
