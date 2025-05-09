@@ -3,6 +3,7 @@ from motion_algorithm import *
 from fastapi.responses import JSONResponse
 import numpy as np
 from PIL import Image
+import io
 
 app = FastAPI()
 
