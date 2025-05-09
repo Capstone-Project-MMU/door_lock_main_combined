@@ -84,4 +84,4 @@ After successful training, the following will be created:
 
 ## Notes
 
-- Resize and pre-process your images to 160x160 for best performance.
+- To test just run the test.py. change the picture as wanted.

@@ -1,107 +1,142 @@
-import tensorflow as tf
-import keras
-from keras import layers, models
-from keras.preprocessing import image_dataset_from_directory
 import os
-from PIL import Image
+import random
+import shutil
+import numpy as np
+import tensorflow as tf
+from keras import layers, models, callbacks
+from keras.applications import MobileNetV2
+from keras.utils import image_dataset_from_directory
+from sklearn.metrics import classification_report, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-
-def clean_invalid_images(dataset_path):
-    removed_files = 0
-    for root, _, files in os.walk(dataset_path):
-        for file in files:
-            if file.lower().endswith(('.jpg', '.jpeg', '.png', '.bmp', '.gif')):
-                path = os.path.join(root, file)
-                try:
-                    with Image.open(path) as img:
-                        img.verify()  # validate the image
-                except Exception as e:
-                    print(f"Removing invalid image: {path} ({e})")
-                    os.remove(path)
-                    removed_files += 1
-    print(f"Done. Removed {removed_files} invalid images.")
-
-clean_invalid_images("/Volumes/main/Capstone/mobilenetv2_finetune/dataset")
-
+# Config
 IMG_SIZE = (160, 160)
 BATCH_SIZE = 32
-DATA_DIR = "dataset"
-NUM_CLASSES = 3
+EPOCHS = 13
 
-train_ds = image_dataset_from_directory(
-    os.path.join(DATA_DIR, "train"),
+# Directories
+train_dir = "dataset/train"
+val_dir = "dataset/val"
+balanced_train_dir = "balanced_data/train"
+os.makedirs(balanced_train_dir, exist_ok=True)
+
+# Balance training data
+def balance_dataset(original_path, target_path):
+    categories = ["human", "animal", "none"]
+    counts = {}
+
+    for cls in categories:
+        src = os.path.join(original_path, cls)
+        dst = os.path.join(target_path, cls)
+        os.makedirs(dst, exist_ok=True)
+        counts[cls] = len(os.listdir(src))
+
+    target_size = counts["human"]
+
+    for cls in categories:
+        src = os.path.join(original_path, cls)
+        dst = os.path.join(target_path, cls)
+        files = os.listdir(src)
+
+        if cls == "animal":
+            files = random.sample(files, target_size)
+        for f in files:
+            shutil.copy(os.path.join(src, f), os.path.join(dst, f))
+
+balance_dataset(train_dir, balanced_train_dir)
+
+# Load datasets
+train_ds_raw = image_dataset_from_directory(
+    balanced_train_dir,
     image_size=IMG_SIZE,
     batch_size=BATCH_SIZE,
-    label_mode='int'
+    label_mode='categorical'
 )
-val_ds = image_dataset_from_directory(
-    os.path.join(DATA_DIR, "val"),
+
+val_ds_raw = image_dataset_from_directory(
+    val_dir,
     image_size=IMG_SIZE,
     batch_size=BATCH_SIZE,
-    label_mode='int'
+    label_mode='categorical',
+    shuffle=False
 )
 
-class_names = train_ds.class_names
-print("Class labels:", class_names)
+# Extract class names BEFORE caching
+class_labels = val_ds_raw.class_names
 
+# Cache and prefetch
 AUTOTUNE = tf.data.AUTOTUNE
-train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
-val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
+train_ds = train_ds_raw.cache().prefetch(buffer_size=AUTOTUNE)
+val_ds = val_ds_raw.cache().prefetch(buffer_size=AUTOTUNE)
 
-data_augmentation = keras.Sequential([
-    layers.RandomFlip('horizontal'),
-    layers.RandomRotation(0.1),
-    layers.RandomZoom(0.1),
-])
-
-base_model = keras.applications.MobileNetV2(
-    input_shape=IMG_SIZE + (3,),
-    include_top=False,
-    weights='imagenet'
-)
+# Model
+base_model = MobileNetV2(include_top=False, weights='imagenet', pooling='avg', input_shape=IMG_SIZE + (3,))
 base_model.trainable = False
 
-inputs = keras.Input(shape=IMG_SIZE + (3,))
-x = data_augmentation(inputs)
-x = keras.applications.mobilenet_v2.preprocess_input(x)
-x = base_model(x, training=False)
-x = layers.GlobalAveragePooling2D()(x)
-x = layers.Dropout(0.2)(x)
-outputs = layers.Dense(NUM_CLASSES, activation='softmax')(x)
-model = models.Model(inputs, outputs)
+model = models.Sequential([
+    layers.Input(shape=IMG_SIZE + (3,)),
+    layers.Rescaling(1./255),
+    base_model,
+    layers.Dense(3, activation='softmax')
+])
 
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-initial_epochs = 2
-model.fit(train_ds, validation_data=val_ds, epochs=initial_epochs)
+# Callbacks
+cb = [
+    callbacks.EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True),
+    callbacks.ModelCheckpoint("best_model.keras", save_best_only=True)
+]
 
-base_model.trainable = True
-fine_tune_at = 100
+# Train
+with tf.device('/GPU:0'):
+    history = model.fit(train_ds, validation_data=val_ds, epochs=EPOCHS, callbacks=cb)
 
-for layer in base_model.layers[:fine_tune_at]:
-    layer.trainable = False
+# Evaluation
+y_true = np.concatenate([y.numpy() for _, y in val_ds_raw])
+y_true = np.argmax(y_true, axis=1)
 
-model.compile(optimizer=keras.optimizers.Adam(1e-5),
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
+y_pred_probs = model.predict(val_ds)
+y_pred = np.argmax(y_pred_probs, axis=1)
 
-fine_tune_epochs = 3
-model.fit(train_ds, validation_data=val_ds,
-          epochs=fine_tune_epochs + initial_epochs,
-          initial_epoch=initial_epochs)
+# Print classification results
+print(confusion_matrix(y_true, y_pred))
+print(classification_report(y_true, y_pred, target_names=class_labels))
 
-model.save("mobilenetv2_human_animal_none.h5")
+# Plot confusion matrix
+cm = confusion_matrix(y_true, y_pred)
+plt.figure(figsize=(6, 4))
+sns.heatmap(cm, annot=True, fmt='d', xticklabels=class_labels, yticklabels=class_labels, cmap='Blues')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.title('Confusion Matrix')
+plt.tight_layout()
+plt.show()
 
-converter = tf.lite.TFLiteConverter.from_keras_model(model)
-tflite_model = converter.convert()
+# Plot training curves
+plt.figure(figsize=(12, 5))
 
-with open("mobilenetv2_model.tflite", "wb") as f:
-    f.write(tflite_model)
+# Accuracy
+plt.subplot(1, 2, 1)
+plt.plot(history.history['accuracy'], label='Train Acc')
+plt.plot(history.history['val_accuracy'], label='Val Acc')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.title('Accuracy Over Epochs')
+plt.legend()
 
-converter.optimizations = [tf.lite.Optimize.DEFAULT]
-quantized_model = converter.convert()
+# Loss
+plt.subplot(1, 2, 2)
+plt.plot(history.history['loss'], label='Train Loss')
+plt.plot(history.history['val_loss'], label='Val Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.title('Loss Over Epochs')
+plt.legend()
 
-with open("mobilenetv2_model_quant.tflite", "wb") as f:
-    f.write(quantized_model)
+plt.tight_layout()
+plt.show()
+
+# Save final model
+model.save("mobilenetv2_human_animal_none_balanced.h5")
