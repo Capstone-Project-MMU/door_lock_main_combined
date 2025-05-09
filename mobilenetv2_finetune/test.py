@@ -12,6 +12,7 @@ model = keras.models.load_model(MODEL_PATH)
 def load_and_preprocess_image(img_path):
     image = Image.open(img_path).convert("RGB")
     image = image.resize(IMG_SIZE)
+    image = np.array(image) / 255.0 
     image = np.expand_dims(image, axis=0)
     return image
 

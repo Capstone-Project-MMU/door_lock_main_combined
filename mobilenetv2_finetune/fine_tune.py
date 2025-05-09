@@ -13,7 +13,7 @@ import seaborn as sns
 # Config
 IMG_SIZE = (160, 160)
 BATCH_SIZE = 32
-EPOCHS = 13
+EPOCHS = 2
 
 # Directories
 train_dir = "dataset/train"
