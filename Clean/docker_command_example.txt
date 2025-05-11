@@ -1,0 +1,10 @@
+we want to use a logger like:
+uvicorn api:app --host 0.0.0.0 --port 8087 -it --log-config ./logs/log.ini
+so we change the dockerfile uvicorn command to be a similar to:
+CMD ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8087", "--log-config", "logs/log.ini"]
+
+then to run docker:
+docker run -it -p 8081:8081 -v /Users/mohtadybarakat/Downloads:/app/faiss store
+
+make a log.ini for each docker so we have a different log file for each docker.
+an example of log.ini is in add_filter_docker
