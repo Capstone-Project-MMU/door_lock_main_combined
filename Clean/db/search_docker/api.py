@@ -2,12 +2,30 @@ from fastapi import FastAPI, UploadFile, File, Form
 import shutil
 import os
 from search_faces import search_face
+import logging
 #uvicorn api:app --host 0.0.0.0 --port 8085
 #docker build -t search_face .
 #docker run -p 8085:8085 search_face
 
+def logger_creation(name : str):
+    log_dir = "door_lock_main_combined/Clean/logs"
+    
+    docker_logger = logging.getLogger(name)
+    docker_logger.setLevel(logging.DEBUG)
+
+    log_dir = os.path.join(log_dir, f"{name}.log")
+    file_handler = logging.FileHandler(log_dir)
+    file_handler.setLevel(logging.DEBUG)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    if not docker_logger.handlers: 
+        docker_logger.addHandler(file_handler)
+    
+    return docker_logger
 
 app = FastAPI()
+logger = logger_creation("search")
 
 UPLOAD_DIR = "../uploads"
 FILTERED_DIR = "../images_with_filters"
@@ -27,4 +45,5 @@ async def search_face_endpoint(image: UploadFile = File(...), k: int = 5):
     """Finds the k nearest faces to an uploaded image."""
     image_path = save_uploaded_file(image)
     result = search_face(image_path, k)
+    logger.debug(f"[Search] Search completed. Result: \n{result}")
     return {"message": "Search completed", "result": result}

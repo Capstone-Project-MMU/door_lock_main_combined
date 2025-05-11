@@ -8,13 +8,33 @@ an official copy of cmake rather than using pip. here is the following methods t
 from fastapi import FastAPI, UploadFile, File, Form
 import requests
 from fastapi.responses import JSONResponse
+import logging
+import time
 
 #uvicorn api:app --host 0.0.0.0 --port 8080
 #docker build -t maestro .
 #docker run -p 8080:8080 maestro
 
+def logger_creation(name : str):
+    log_dir = "door_lock_main_combined/Clean/logs"
+    
+    docker_logger = logging.getLogger(name)
+    docker_logger.setLevel(logging.DEBUG)
+
+    log_dir = os.path.join(log_dir, f"{name}.log")
+    file_handler = logging.FileHandler(log_dir)
+    file_handler.setLevel(logging.DEBUG)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    if not docker_logger.handlers: 
+        docker_logger.addHandler(file_handler)
+    
+    return docker_logger
+
 
 app = FastAPI()
+logger = logger_creation("maestro")
 
 @app.post("/detect")
 async def detect(file: UploadFile = File(...)):
@@ -35,6 +55,7 @@ async def detect(file: UploadFile = File(...)):
         response = requests.post(url2, files=files)
 
     print(response.json())
+    logger.debug(f"[maestro] Response from /detect has been recieved")
     return response.json()
 
 @app.post("/recognize")
@@ -45,6 +66,7 @@ async def recognize(file: UploadFile = File(...)):
     response = requests.post(url, files=files)
     time.sleep(2)
     print(response.json())
+    logger.debug(f"[maestro] Response from /recognize has been recieved")
     return {"match": True}
 
 
@@ -55,6 +77,7 @@ async def add_filters(image: UploadFile = File(...), person_name: str = Form(...
     files = {"image": (image.filename, await image.read(), image.content_type)}
     data = {"person_name": person_name}
     response = requests.post(url, files=files, data=data)
+    logger.debug(f"[maestro] Response from /add_filters has been recieved")
     return JSONResponse(content=response.json(), status_code=response.status_code)
 
 @app.post("/store")
@@ -68,6 +91,7 @@ async def store_face(
     files = {"image": (image.filename, await image.read(), image.content_type)}
     data = {"person_name": person_name, "apply_filter": apply_filter}
     response = requests.post(url, files=files, data=data)
+    logger.debug(f"[maestro] Response from /store has been recieved")
     return JSONResponse(content=response.json(), status_code=response.status_code)
 
 @app.post("/search")
@@ -77,4 +101,5 @@ async def search_face(image: UploadFile = File(...), k: int = Form(5)):
     files = {"image": (image.filename, await image.read(), image.content_type)}
     data = {"k": k}
     response = requests.post(url, files=files, data=data)
+    logger.debug(f"[maestro] Response from /search has been recieved")
     return JSONResponse(content=response.json(), status_code=response.status_code)

@@ -7,17 +7,26 @@ import logging, sys
 #docker build -t add_filters .
 #docker run -p 8086:8086 add_filters
 
+def logger_creation(name : str):
+    log_dir = "door_lock_main_combined/Clean/logs"
+    
+    docker_logger = logging.getLogger(name)
+    docker_logger.setLevel(logging.DEBUG)
+
+    log_dir = os.path.join(log_dir, f"{name}.log")
+    file_handler = logging.FileHandler(log_dir)
+    file_handler.setLevel(logging.DEBUG)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    if not docker_logger.handlers: 
+        docker_logger.addHandler(file_handler)
+    
+    return docker_logger
 
 app = FastAPI()
 
-root_logger = logging.getLogger()
-root_logger.setLevel(logging.DEBUG)
-
-handler = logging.StreamHandler(sys.stdout)
-handler.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-root_logger.addHandler(handler)
+logger = logger_creation("add_filter")
 
 
 UPLOAD_DIR = "../uploads"
@@ -35,8 +44,8 @@ def save_uploaded_file(uploaded_file: UploadFile):
 @app.post("/add-filters")
 async def add_filters_endpoint(image: UploadFile = File(...), person_name: str = Form(...)):
     """Applies filters and saves images with person's name."""
-    logging.debug(f"[add-filters] Received image: {image.filename} for person: {person_name}")
+    logger.debug(f"[add-filters] Received image: {image.filename} for person: {person_name}")
     image_path = save_uploaded_file(image)
     apply_filters(image_path, FILTERED_DIR, person_name)
-    logging.debug(f"[add-filters] Filters applied and saved to {FILTERED_DIR} for {person_name}")
+    logger.debug(f"[add-filters] Filters applied and saved to {FILTERED_DIR} for {person_name}")
     return {"message": f"Filters applied for {person_name}", "output_directory": FILTERED_DIR}

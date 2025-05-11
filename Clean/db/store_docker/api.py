@@ -7,11 +7,30 @@ from store_faces import store_face
 import uvicorn
 from fastapi import APIRouter
 from time import sleep
+import logging
 #uvicorn api:app --host 0.0.0.0 --port 8084
 #docker build -t store_face .
 #docker run -p 8084:8084 store_face
 
+def logger_creation(name : str):
+    log_dir = "door_lock_main_combined/Clean/logs"
+    
+    docker_logger = logging.getLogger(name)
+    docker_logger.setLevel(logging.DEBUG)
+
+    log_dir = os.path.join(log_dir, f"{name}.log")
+    file_handler = logging.FileHandler(log_dir)
+    file_handler.setLevel(logging.DEBUG)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    if not docker_logger.handlers: 
+        docker_logger.addHandler(file_handler)
+    
+    return docker_logger
+
 app = FastAPI()
+logger = logger_creation("store")
 
 UPLOAD_DIR = "../uploads"
 FILTERED_DIR = "../images_with_filters"
@@ -46,7 +65,7 @@ async def store_face_endpoint(
     - If `apply_filter="false"`, it stores the original image.
     """  
     image_path = save_uploaded_file(image)
-
+    logger.debug(f"[store] apply_filter: {apply_filter}")
     print(f"apply_filter: {apply_filter}")  # Debugging statement
 
     if apply_filter.lower() == "true":
@@ -60,8 +79,10 @@ async def store_face_endpoint(
             sleep(5)  # Wait for the server to start
             response = apply_filters_request(image_path, FILTERED_DIR, person_name)
             if response.status_code != 200:
+                logger.debug(f"[store] Error: Failed to apply filters: {response.text}")
                 return {"error": f"Failed to apply filters: {response.text}"}
         except Exception as e:
+            logger.debug(f"[store] Error in apply_filters_request: {e}")
             print(f"Error in apply_filters_request: {e}")  # Debugging statement
             return {"error": str(e)}
 
@@ -76,11 +97,12 @@ async def store_face_endpoint(
 
         # Shutdown the apply_filter endpoint server
         requests.post(SHUTDOWN_URL)
-
+        logger.debug(f"[store] Stored filtered images for {person_name}")
         return {"message": f"Stored filtered images for {person_name}"}
 
     else:
         store_face(image_path)
+        logger.debug(f"[store] Stored original images for {person_name}")
         return {"message": f"Stored original image for {person_name}"}
 
 @app.post("/shutdown")
