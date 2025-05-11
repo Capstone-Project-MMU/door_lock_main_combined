@@ -9,3 +9,15 @@ __pycache__/
 *.pyo
 *.so
 **/__pycache__/
+
+*.zip
+**/dataset/
+**/afhq/
+**/archive/
+**/mobilenetv2_finetune/House_Room_Dataset/
+**/balanced_data/
+**/House_Room_Dataset
+**/monkey/
+**/cats/
+**/squirrel/
+**/snake/
