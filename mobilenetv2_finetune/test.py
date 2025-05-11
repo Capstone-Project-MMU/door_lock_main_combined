@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 MODEL_PATH = "mobilenetv2_human_animal_none_balanced.h5"
-IMG_PATH = "image.png"
+IMG_PATH = "image2.png"
 IMG_SIZE = (160, 160)
 CLASS_NAMES = ["animal", "human", "none"]
 
@@ -12,7 +12,6 @@ model = keras.models.load_model(MODEL_PATH)
 def load_and_preprocess_image(img_path):
     image = Image.open(img_path).convert("RGB")
     image = image.resize(IMG_SIZE)
-    image = np.array(image) / 255.0 
     image = np.expand_dims(image, axis=0)
     return image
 
