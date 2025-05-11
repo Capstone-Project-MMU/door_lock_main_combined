@@ -10,8 +10,8 @@ import requests
 from fastapi.responses import JSONResponse
 
 #uvicorn api:app --host 0.0.0.0 --port 8080
-#docker build -t face-rec-api .
-#docker run -p 8080:8080 face-rec-api
+#docker build -t maestro .
+#docker run -p 8080:8080 maestro
 
 
 app = FastAPI()

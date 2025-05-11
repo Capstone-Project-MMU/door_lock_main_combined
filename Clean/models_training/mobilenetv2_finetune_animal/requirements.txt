@@ -2,5 +2,7 @@ tqdm
 scikit-learn
 matplotlib
 seaborn
-#pip install tensorflow-macos
-#pip install tensorflow-metal
+fastapi
+keras
+# pip install tensorflow-macos
+# pip install tensorflow-metal

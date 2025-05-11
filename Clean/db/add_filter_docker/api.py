@@ -3,9 +3,9 @@ import shutil
 import os
 from add_filters import apply_filters
 import logging, sys
-#uvicorn api:app --host 0.0.0.0 --port 8083
-#docker build -t face-rec-api .
-#docker run -p 8083:8083 face-rec-api
+#uvicorn api:app --host 0.0.0.0 --port 8086
+#docker build -t add_filters .
+#docker run -p 8086:8086 add_filters
 
 
 app = FastAPI()

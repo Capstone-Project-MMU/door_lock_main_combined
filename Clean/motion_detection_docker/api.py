@@ -5,6 +5,10 @@ import numpy as np
 from PIL import Image
 import io
 
+#uvicorn api:app --host 0.0.0.0 --port 8081
+#docker build -t motion_detect .
+#docker run -p 8088:8088 motion_detect
+
 app = FastAPI()
 
 def read_image(file: UploadFile) -> np.ndarray:

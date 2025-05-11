@@ -4,9 +4,9 @@ import mediapipe as mp
 import face_recognition
 import numpy as np
 from face_utils import recognize_face  
-#uvicorn api:app --host 0.0.0.0 --port 8082
+#uvicorn api:app --host 0.0.0.0 --port 8083
 #docker build -t face-rec-api .
-#docker run -p 8082:8082 face-rec-api
+#docker run -p 8083:8083 face-rec-api
 
 app = FastAPI()
 

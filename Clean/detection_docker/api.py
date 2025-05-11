@@ -4,9 +4,9 @@ import mediapipe as mp
 
 import numpy as np
 from face_detection import detect_faces
-#uvicorn api:app --host 0.0.0.0 --port 8081
-#docker build -t face-detection-api .
-#docker run -p 8081:8081 face-detection-api
+#uvicorn api:app --host 0.0.0.0 --port 8082
+#docker build -t face_detect .
+#docker run -p 8082:8082 face_detect
 
 app = FastAPI()
 
