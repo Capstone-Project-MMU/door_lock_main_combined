@@ -1,0 +1,8 @@
+tqdm
+scikit-learn
+matplotlib
+seaborn
+fastapi
+keras
+# pip install tensorflow-macos
+# pip install tensorflow-metal
