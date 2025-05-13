@@ -10,18 +10,19 @@ import requests
 from fastapi.responses import JSONResponse
 import logging
 import time
+import os
 
 #uvicorn api:app --host 0.0.0.0 --port 8080
 #docker build -t maestro .
 #docker run -p 8080:8080 maestro
 
-def logger_creation(name : str):
-    log_dir = "door_lock_main_combined/Clean/logs"
+def logger_creation():
+    log_dir = "../logs"
     
-    docker_logger = logging.getLogger(name)
+    docker_logger = logging.getLogger()
     docker_logger.setLevel(logging.DEBUG)
-
-    log_dir = os.path.join(log_dir, f"{name}.log")
+    os.makedirs(log_dir, exist_ok=True)
+    log_dir = os.path.join(log_dir, f"maestro.log")
     file_handler = logging.FileHandler(log_dir)
     file_handler.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -34,12 +35,12 @@ def logger_creation(name : str):
 
 
 app = FastAPI()
-logger = logger_creation("maestro")
+logger = logger_creation()
 
 @app.post("/detect")
 async def detect(file: UploadFile = File(...)):
-    url = "http://127.0.0.1:8081/detect"
-    url2 = "http://127.0.0.1:8082/recognize"
+    url = "http://127.0.0.1:8082/detect"
+    url2 = "http://127.0.0.1:8083/recognize"
 
     # Read file into memory
     file_contents = await file.read()
@@ -60,7 +61,7 @@ async def detect(file: UploadFile = File(...)):
 
 @app.post("/recognize")
 async def recognize(file: UploadFile = File(...)):
-    url = "http://127.0.0.1:8082/recognize"
+    url = "http://127.0.0.1:8083/recognize"
     files = {"file": (file.filename, file.file, file.content_type)}
     time.sleep(2)
     response = requests.post(url, files=files)
@@ -73,7 +74,7 @@ async def recognize(file: UploadFile = File(...)):
 @app.post("/add-filters")
 async def add_filters(image: UploadFile = File(...), person_name: str = Form(...)):
     """Forwards add-filters request to the add-filters FastAPI service."""
-    url = "http://127.0.0.1:8083/add-filters"
+    url = "http://127.0.0.1:8086/add-filters"
     files = {"image": (image.filename, await image.read(), image.content_type)}
     data = {"person_name": person_name}
     response = requests.post(url, files=files, data=data)
@@ -87,7 +88,7 @@ async def store_face(
     apply_filter: str = Form("false"),
 ):
     """Forwards store request to the store FastAPI service."""
-    url = "http://127.0.0.1:8085/store"
+    url = "http://127.0.0.1:8084/store"
     files = {"image": (image.filename, await image.read(), image.content_type)}
     data = {"person_name": person_name, "apply_filter": apply_filter}
     response = requests.post(url, files=files, data=data)
@@ -97,7 +98,7 @@ async def store_face(
 @app.post("/search")
 async def search_face(image: UploadFile = File(...), k: int = Form(5)):
     """Forwards search request to the search FastAPI service."""
-    url = "http://127.0.0.1:8084/search"
+    url = "http://127.0.0.1:8085/search"
     files = {"image": (image.filename, await image.read(), image.content_type)}
     data = {"k": k}
     response = requests.post(url, files=files, data=data)

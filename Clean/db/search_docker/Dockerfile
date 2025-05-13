@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 
 # Install required Python dependencies
-RUN pip install --no-cache-dir -r requirments.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy all the application files
 COPY . .
@@ -29,4 +29,4 @@ COPY . .
 EXPOSE 8085
 
 # Run FastAPI using Uvicorn
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8085"]
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8085",  "--log-config", "log.ini"]

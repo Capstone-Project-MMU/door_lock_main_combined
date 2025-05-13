@@ -5,13 +5,15 @@ import faiss
 from insightface.app import FaceAnalysis
 
 # Directory for storing face images
-IMAGE_DIR = "../images_with_filters"
+IMAGE_DIR = "images_with_filters"
 os.makedirs(IMAGE_DIR, exist_ok=True)
 
 # FAISS index setup
 DIMENSION = 512  # Embedding size
-INDEX_FILE = "fais_db/filtered_face_index.faiss"
-METADATA_FILE = "fais_db/metadata.txt"
+#Fun Fact: These 2 variables took so long to fix and the only problem there was was....../ before the fais_db
+#I hate my life
+INDEX_FILE = "/fais_db/filtered_face_index.faiss" 
+METADATA_FILE = "/fais_db/metadata.txt"
 
 # Load existing FAISS index or create a new one
 if os.path.exists(INDEX_FILE):

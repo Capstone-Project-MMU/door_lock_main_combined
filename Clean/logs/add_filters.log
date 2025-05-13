@@ -1,0 +1,209 @@
+[2025-05-13 02:12:03,511.511] INFO [281473602936864] - Started server process [1]
+[2025-05-13 02:12:03,516.516] INFO [281473602936864] - Waiting for application startup.
+[2025-05-13 02:12:03,519.519] INFO [281473602936864] - Application startup complete.
+[2025-05-13 02:12:03,519.519] INFO [281473602936864] - Uvicorn running on http://0.0.0.0:8086 (Press CTRL+C to quit)
+2025-05-13 02:12:15,288 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 02:12:15,288 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 02:12:15,288 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:199]
+2025-05-13 02:12:15,289 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 02:12:15,290 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 02:12:15,290 - python_multipart.multipart - DEBUG - Calling on_part_data with data[203:127333]
+2025-05-13 02:12:15,290 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,291 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,292 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,292 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,295 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,299 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,300 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,301 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,301 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,302 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,302 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,302 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,303 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,303 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,304 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,304 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,305 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,305 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,306 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,306 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,307 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,307 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,308 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,308 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:15,309 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:57080]
+2025-05-13 02:12:15,309 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 02:12:15,309 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 02:12:15,309 - root - DEBUG - [add-filters] Received image: moh.png for person: Mohamed
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 41 32
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 85 6
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - b'bKGD' 85 6 (unknown)
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 103 9
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - STREAM b'zTXt' 124 1093
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - STREAM b'orNT' 1229 1
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - b'orNT' 1229 1 (unknown)
+2025-05-13 02:12:15,400 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1242 32768
+2025-05-13 02:12:15,814 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 6471349 2430
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473791 37
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473840 37
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473889 40
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473941 30
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473983 31
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474026 21
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474059 21
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474092 33
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474137 42
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474191 41
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474244 19
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474275 21
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474308 26
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474346 19
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474377 22
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474411 23
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474446 13
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474471 18
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474501 30
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474543 29
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474584 19
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474615 64
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474691 81
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474784 15
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474811 24
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474847 19
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474878 24
+2025-05-13 02:12:15,815 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474914 22
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474948 31
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474991 30
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475033 31
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475076 25
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475113 25
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475150 16
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475178 20
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475210 35
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475257 20
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475289 39
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475340 28
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475380 27
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475419 19
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475450 41
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475503 21
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475536 34
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475582 22
+2025-05-13 02:12:15,816 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475616 34
+2025-05-13 02:12:15,925 - root - DEBUG - [add-filters] Filters applied and saved to /images_with_filters for Mohamed
+2025-05-13 02:12:51,144 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 02:12:51,145 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 02:12:51,146 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 02:12:51,146 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 02:12:51,146 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 02:12:51,146 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 02:12:51,146 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 02:12:51,146 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 02:12:51,146 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 02:12:51,147 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:199]
+2025-05-13 02:12:51,147 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 02:12:51,147 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 02:12:51,147 - python_multipart.multipart - DEBUG - Calling on_part_data with data[203:127333]
+2025-05-13 02:12:51,148 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,149 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,149 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,150 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,151 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,152 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,152 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,153 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,153 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,154 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,154 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,155 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,156 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,156 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,157 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,157 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,158 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,160 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,160 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,161 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,161 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,162 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 02:12:51,162 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:57080]
+2025-05-13 02:12:51,162 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 02:12:51,162 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 02:12:51,163 - root - DEBUG - [add-filters] Received image: moh.png for person: Mohamed
+2025-05-13 02:12:51,260 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-05-13 02:12:51,260 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 41 32
+2025-05-13 02:12:51,260 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 85 6
+2025-05-13 02:12:51,260 - PIL.PngImagePlugin - DEBUG - b'bKGD' 85 6 (unknown)
+2025-05-13 02:12:51,260 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 103 9
+2025-05-13 02:12:51,260 - PIL.PngImagePlugin - DEBUG - STREAM b'zTXt' 124 1093
+2025-05-13 02:12:51,261 - PIL.PngImagePlugin - DEBUG - STREAM b'orNT' 1229 1
+2025-05-13 02:12:51,261 - PIL.PngImagePlugin - DEBUG - b'orNT' 1229 1 (unknown)
+2025-05-13 02:12:51,261 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1242 32768
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 6471349 2430
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473791 37
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473840 37
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473889 40
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473941 30
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473983 31
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474026 21
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474059 21
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474092 33
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474137 42
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474191 41
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474244 19
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474275 21
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474308 26
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474346 19
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474377 22
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474411 23
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474446 13
+2025-05-13 02:12:51,671 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474471 18
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474501 30
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474543 29
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474584 19
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474615 64
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474691 81
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474784 15
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474811 24
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474847 19
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474878 24
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474914 22
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474948 31
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474991 30
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475033 31
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475076 25
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475113 25
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475150 16
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475178 20
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475210 35
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475257 20
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475289 39
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475340 28
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475380 27
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475419 19
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475450 41
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475503 21
+2025-05-13 02:12:51,672 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475536 34
+2025-05-13 02:12:51,673 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475582 22
+2025-05-13 02:12:51,673 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475616 34
+2025-05-13 02:12:51,780 - root - DEBUG - [add-filters] Filters applied and saved to /images_with_filters for Mohamed
+[2025-05-13 02:14:05,284.284] INFO [281473161093152] - Started server process [1]
+[2025-05-13 02:14:05,285.285] INFO [281473161093152] - Waiting for application startup.
+[2025-05-13 02:14:05,290.290] INFO [281473161093152] - Application startup complete.
+[2025-05-13 02:14:05,290.290] INFO [281473161093152] - Uvicorn running on http://0.0.0.0:8086 (Press CTRL+C to quit)
+[2025-05-13 02:15:50,979.979] INFO [281473161093152] - 192.168.65.1:61446 - "POST /add-filters HTTP/1.1" 200
+[2025-05-13 02:16:03,796.796] INFO [281473161093152] - Shutting down
+[2025-05-13 02:16:03,903.903] INFO [281473161093152] - Waiting for application shutdown.
+[2025-05-13 02:16:03,904.904] INFO [281473161093152] - Application shutdown complete.
+[2025-05-13 02:16:03,904.904] INFO [281473161093152] - Finished server process [1]

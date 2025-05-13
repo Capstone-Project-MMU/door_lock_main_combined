@@ -3,17 +3,26 @@ import shutil
 import os
 from add_filters import apply_filters
 import logging, sys
-#uvicorn api:app --host 0.0.0.0 --port 8086
-#docker build -t add_filters .
-#docker run -p 8086:8086 add_filters
 
-def logger_creation(name : str):
-    log_dir = "door_lock_main_combined/Clean/logs"
+"""
+uvicorn api:app --host 0.0.0.0 --port 8086
+docker build -t add_filters .
+docker run \
+    -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/logs:/logs \
+    -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/db/uploads:/uploads \
+    -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/db/images_with_filters:/images_with_filters \
+    -p 8086:8086 \
+    add_filters
+"""
+
+
+def logger_creation():
+    log_dir = "/logs"
     
-    docker_logger = logging.getLogger(name)
+    docker_logger = logging.getLogger()
     docker_logger.setLevel(logging.DEBUG)
-
-    log_dir = os.path.join(log_dir, f"{name}.log")
+    os.makedirs(log_dir, exist_ok=True)
+    log_dir = os.path.join(log_dir, f"add_filters.log")
     file_handler = logging.FileHandler(log_dir)
     file_handler.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -26,11 +35,11 @@ def logger_creation(name : str):
 
 app = FastAPI()
 
-logger = logger_creation("add_filter")
+logger = logger_creation()
 
 
-UPLOAD_DIR = "../uploads"
-FILTERED_DIR = "../images_with_filters"
+UPLOAD_DIR = "/uploads"
+FILTERED_DIR = "/images_with_filters"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(FILTERED_DIR, exist_ok=True)
 

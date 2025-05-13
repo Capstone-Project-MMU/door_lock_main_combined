@@ -5,18 +5,24 @@ import mediapipe as mp
 import face_recognition
 import numpy as np
 from face_utils import recognize_face  
+import os
+"""
+uvicorn api:app --host 0.0.0.0 --port 8083
+docker build -t face_recognize .
+docker run \
+    -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/logs:/logs \
+    -p 8083:8083 \
+    face_recognize
+"""
 
-#uvicorn api:app --host 0.0.0.0 --port 8083
-#docker build -t face-rec-api .
-#docker run -p 8083:8083 face-rec-api
 
-def logger_creation(name : str):
-    log_dir = "door_lock_main_combined/Clean/logs"
+def logger_creation():
+    log_dir = "logs"
     
-    docker_logger = logging.getLogger(name)
+    docker_logger = logging.getLogger()
     docker_logger.setLevel(logging.DEBUG)
-
-    log_dir = os.path.join(log_dir, f"{name}.log")
+    os.makedirs(log_dir, exist_ok=True)
+    log_dir = os.path.join(log_dir, f"recognition.log")
     file_handler = logging.FileHandler(log_dir)
     file_handler.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -29,7 +35,7 @@ def logger_creation(name : str):
 
 
 app = FastAPI()
-logger = logger_creation("recognition")
+logger = logger_creation()
 
 # Load reference image (Moh)
 reference_image = face_recognition.load_image_file("moh.png")

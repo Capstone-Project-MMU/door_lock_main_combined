@@ -3,5 +3,6 @@ scikit-learn
 matplotlib
 seaborn
 keras
-#pip install tensorflow-macos
+uvicorn
+# pip install tensorflow-macos
 #pip install tensorflow-metal

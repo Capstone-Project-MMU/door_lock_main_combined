@@ -1,0 +1,73 @@
+[2025-05-13 00:40:08,662.662] INFO [281473153933344] - Loading faiss.
+[2025-05-13 00:40:08,672.672] INFO [281473153933344] - Successfully loaded faiss.
+[2025-05-13 00:40:08,678.678] INFO [281473153933344] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 00:40:09,098.098] INFO [281473153933344] - generated new fontManager
+[2025-05-13 01:00:56,810.810] INFO [281473281286176] - Loading faiss.
+[2025-05-13 01:00:56,827.827] INFO [281473281286176] - Successfully loaded faiss.
+[2025-05-13 01:00:56,836.836] INFO [281473281286176] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:00:57,255.255] INFO [281473281286176] - generated new fontManager
+[2025-05-13 01:02:23,424.424] INFO [281473062428704] - Loading faiss.
+[2025-05-13 01:02:23,448.448] INFO [281473062428704] - Successfully loaded faiss.
+[2025-05-13 01:02:23,451.451] INFO [281473062428704] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:02:23,872.872] INFO [281473062428704] - generated new fontManager
+[2025-05-13 01:03:05,712.712] INFO [281473048391712] - Loading faiss.
+[2025-05-13 01:03:05,721.721] INFO [281473048391712] - Successfully loaded faiss.
+[2025-05-13 01:03:05,725.725] INFO [281473048391712] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:03:06,129.129] INFO [281473048391712] - generated new fontManager
+[2025-05-13 01:07:02,347.347] INFO [281472849014816] - Loading faiss.
+[2025-05-13 01:07:02,357.357] INFO [281472849014816] - Successfully loaded faiss.
+[2025-05-13 01:07:02,359.359] INFO [281472849014816] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:07:02,794.794] INFO [281472849014816] - generated new fontManager
+[2025-05-13 01:08:22,471.471] INFO [281473089888288] - Loading faiss.
+[2025-05-13 01:08:22,483.483] INFO [281473089888288] - Successfully loaded faiss.
+[2025-05-13 01:08:22,488.488] INFO [281473089888288] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:08:22,899.899] INFO [281473089888288] - generated new fontManager
+[2025-05-13 01:10:52,159.159] INFO [281473663868960] - Loading faiss.
+[2025-05-13 01:10:52,178.178] INFO [281473663868960] - Successfully loaded faiss.
+[2025-05-13 01:10:52,181.181] INFO [281473663868960] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:10:52,600.600] INFO [281473663868960] - generated new fontManager
+[2025-05-13 01:19:19,325.325] INFO [281473526186016] - Loading faiss.
+[2025-05-13 01:19:19,346.346] INFO [281473526186016] - Successfully loaded faiss.
+[2025-05-13 01:19:19,348.348] INFO [281473526186016] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:19:19,846.846] INFO [281473526186016] - generated new fontManager
+[2025-05-13 01:20:04,272.272] INFO [281473030696992] - Loading faiss.
+[2025-05-13 01:20:04,284.284] INFO [281473030696992] - Successfully loaded faiss.
+[2025-05-13 01:20:04,289.289] INFO [281473030696992] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:20:04,705.705] INFO [281473030696992] - generated new fontManager
+[2025-05-13 01:31:01,728.728] INFO [281473742102560] - Loading faiss.
+[2025-05-13 01:31:01,749.749] INFO [281473742102560] - Successfully loaded faiss.
+[2025-05-13 01:31:01,754.754] INFO [281473742102560] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:31:02,193.193] INFO [281473742102560] - generated new fontManager
+[2025-05-13 01:33:27,563.563] INFO [281473877577760] - Loading faiss.
+[2025-05-13 01:33:27,579.579] INFO [281473877577760] - Successfully loaded faiss.
+[2025-05-13 01:33:27,583.583] INFO [281473877577760] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:33:27,992.992] INFO [281473877577760] - generated new fontManager
+[2025-05-13 01:34:25,519.519] INFO [281473691193376] - Loading faiss.
+[2025-05-13 01:34:25,534.534] INFO [281473691193376] - Successfully loaded faiss.
+[2025-05-13 01:34:25,539.539] INFO [281473691193376] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:34:25,937.937] INFO [281473691193376] - generated new fontManager
+[2025-05-13 01:40:31,593.593] INFO [281473848999968] - Loading faiss.
+[2025-05-13 01:40:31,614.614] INFO [281473848999968] - Successfully loaded faiss.
+[2025-05-13 01:40:31,616.616] INFO [281473848999968] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:40:32,026.026] INFO [281473848999968] - generated new fontManager
+[2025-05-13 01:40:54,904.904] INFO [281473776955424] - Loading faiss.
+[2025-05-13 01:40:54,924.924] INFO [281473776955424] - Successfully loaded faiss.
+[2025-05-13 01:40:54,927.927] INFO [281473776955424] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:40:55,483.483] INFO [281473776955424] - generated new fontManager
+[2025-05-13 01:40:58,854.854] INFO [281473628639264] - Loading faiss.
+[2025-05-13 01:40:58,867.867] INFO [281473628639264] - Successfully loaded faiss.
+[2025-05-13 01:40:58,870.870] INFO [281473628639264] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:40:59,263.263] INFO [281473628639264] - generated new fontManager
+[2025-05-13 01:42:11,296.296] INFO [281473269202976] - Loading faiss.
+[2025-05-13 01:42:11,316.316] INFO [281473269202976] - Successfully loaded faiss.
+[2025-05-13 01:42:11,320.320] INFO [281473269202976] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:42:11,716.716] INFO [281473269202976] - generated new fontManager
+[2025-05-13 01:42:18,504.504] INFO [281473269202976] - Started server process [1]
+[2025-05-13 01:42:18,504.504] INFO [281473269202976] - Waiting for application startup.
+[2025-05-13 01:42:18,504.504] INFO [281473269202976] - Application startup complete.
+[2025-05-13 01:42:18,504.504] INFO [281473269202976] - Uvicorn running on http://0.0.0.0:8085 (Press CTRL+C to quit)
+[2025-05-13 01:42:39,315.315] INFO [281473269202976] - 192.168.65.1:16550 - "POST /search HTTP/1.1" 200
+[2025-05-13 01:43:14,364.364] INFO [281473269202976] - Shutting down
+[2025-05-13 01:43:14,470.470] INFO [281473269202976] - Waiting for application shutdown.
+[2025-05-13 01:43:14,471.471] INFO [281473269202976] - Application shutdown complete.
+[2025-05-13 01:43:14,471.471] INFO [281473269202976] - Finished server process [1]

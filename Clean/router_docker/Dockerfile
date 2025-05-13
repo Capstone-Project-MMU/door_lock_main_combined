@@ -1,5 +1,8 @@
 # Use an official Python runtime as a parent image
 FROM python:3.9-slim
+# was the only way i found to have tensorflow downloaded in the docker image
+# it does give a warning but still works
+FROM tensorflow/tensorflow:2.19.0
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -17,10 +20,10 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirments.txt first (for caching efficiency)
-COPY requirments.txt .
+COPY requirements.txt .
 
 # Install required Python dependencies
-RUN pip install --no-cache-dir -r requirments.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy all the application files
 COPY . .
@@ -29,4 +32,4 @@ COPY . .
 EXPOSE 8087
 
 # Run FastAPI using Uvicorn
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8087"]
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8087", "--log-config", "log.ini"]

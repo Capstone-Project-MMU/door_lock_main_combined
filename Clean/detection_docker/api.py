@@ -2,20 +2,28 @@ from fastapi import FastAPI, UploadFile, File
 import cv2
 import mediapipe as mp
 import logging
+import os
 
 import numpy as np
 from face_detection import detect_faces
-#uvicorn api:app --host 0.0.0.0 --port 8082
-#docker build -t face_detect .
-#docker run -p 8082:8082 face_detect
 
-def logger_creation(name : str):
-    log_dir = "door_lock_main_combined/Clean/logs"
+"""
+uvicorn api:app --host 0.0.0.0 --port 8082
+docker build -t face_detect .
+docker run \
+    -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/logs:/logs \
+    -p 8082:8082 \
+    face_detect
+"""
+
+
+def logger_creation():
+    log_dir = "logs"
     
-    docker_logger = logging.getLogger(name)
+    docker_logger = logging.getLogger()
     docker_logger.setLevel(logging.DEBUG)
-
-    log_dir = os.path.join(log_dir, f"{name}.log")
+    os.makedirs(log_dir, exist_ok=True)
+    log_dir = os.path.join(log_dir, f"detection.log")
     file_handler = logging.FileHandler(log_dir)
     file_handler.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -27,7 +35,7 @@ def logger_creation(name : str):
     return docker_logger
 
 app = FastAPI()
-logger = logger_creation("detection")
+logger = logger_creation()
 
 @app.post("/detect")
 async def detect(file: UploadFile = File(...)):

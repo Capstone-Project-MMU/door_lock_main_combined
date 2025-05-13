@@ -6,8 +6,8 @@ from insightface.app import FaceAnalysis
 
 # Directory where filtered images are stored
 IMAGE_DIR = "images_with_filters"
-INDEX_FILE = "fais_db/filtered_face_index.faiss"
-METADATA_FILE = "fais_db/metadata.txt"
+INDEX_FILE = "/fais_db/filtered_face_index.faiss"
+METADATA_FILE = "/fais_db/metadata.txt"
 DIMENSION = 512  
 
 # Load FAISS index and metadata

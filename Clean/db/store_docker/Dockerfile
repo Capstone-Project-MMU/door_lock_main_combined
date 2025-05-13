@@ -19,8 +19,8 @@ RUN apt-get update && apt-get install -y \
 # Copy requirments.txt first (for caching efficiency)
 COPY requirements.txt .
 
-# Install required Python dependencies
-RUN pip install --no-cache-dir -r requirments.txt
+# Install required Python dependencies requirements. Moh, there was a typo in requirements.txt.... Thank you for wasting 2 hours of my life
+RUN pip install --no-cache-dir -r requirements.txt 
 
 # Copy all the application files
 COPY . .
@@ -29,4 +29,4 @@ COPY . .
 EXPOSE 8084
 
 # Run FastAPI using Uvicorn
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8084"]
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8084", "--log-config", "log.ini"]

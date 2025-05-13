@@ -8,17 +8,29 @@ import uvicorn
 from fastapi import APIRouter
 from time import sleep
 import logging
-#uvicorn api:app --host 0.0.0.0 --port 8084
-#docker build -t store_face .
-#docker run -p 8084:8084 store_face
 
-def logger_creation(name : str):
-    log_dir = "door_lock_main_combined/Clean/logs"
+"""
+uvicorn api:app --host 0.0.0.0 --port 8084
+docker build -t store_face .
+docker run \
+  -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/logs:/logs \
+  -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/db/uploads:/uploads \
+  -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/db/images_with_filters:/images_with_filters \
+  -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/db/store_docker/fais_db:/fais_db \
+  -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/db/add_filter_docker:/add_filter_docker \
+  -p 8084:8084 \
+  store_face
+  """
+
+
+
+def logger_creation():
+    log_dir = "logs"
     
-    docker_logger = logging.getLogger(name)
+    docker_logger = logging.getLogger()
     docker_logger.setLevel(logging.DEBUG)
-
-    log_dir = os.path.join(log_dir, f"{name}.log")
+    os.makedirs(log_dir, exist_ok=True)
+    log_dir = os.path.join(log_dir, f"store.log")
     file_handler = logging.FileHandler(log_dir)
     file_handler.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -30,10 +42,10 @@ def logger_creation(name : str):
     return docker_logger
 
 app = FastAPI()
-logger = logger_creation("store")
+logger = logger_creation()
 
-UPLOAD_DIR = "../uploads"
-FILTERED_DIR = "../images_with_filters"
+UPLOAD_DIR = "/uploads" # needed to be fixed for mounting in dockers
+FILTERED_DIR = "/images_with_filters"
 ADD_FILTER_URL = "http://127.0.0.1:8083/add-filters"
 SHUTDOWN_URL = "http://127.0.0.1:8083/shutdown"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
@@ -72,7 +84,7 @@ async def store_face_endpoint(
         # Start the apply_filter endpoint server
         subprocess.Popen(
             ["python3", "start_apply_filter_server.py"],
-            cwd="../add_filter_docker"
+            cwd="add_filter_docker"
         )
 
         try:

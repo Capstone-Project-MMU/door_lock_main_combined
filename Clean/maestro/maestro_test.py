@@ -35,3 +35,5 @@ def test_search_face():
 # test_add_filters()
 # test_store_face()
 # test_search_face()
+# test_detect()
+test_recognize()

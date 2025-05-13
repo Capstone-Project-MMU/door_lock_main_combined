@@ -17,13 +17,13 @@ IMG_PATH = "image2.png"
 IMG_SIZE = (160, 160)
 CLASS_NAMES = ["animal", "human", "none"]
 
-def logger_creation(name : str):
-    log_dir = "door_lock_main_combined/Clean/logs"
+def logger_creation():
+    log_dir = "../logs"
     
-    docker_logger = logging.getLogger(name)
+    docker_logger = logging.getLogger()
     docker_logger.setLevel(logging.DEBUG)
-
-    log_dir = os.path.join(log_dir, f"{name}.log")
+    os.makedirs(log_dir, exist_ok=True)
+    log_dir = os.path.join(log_dir, f"router.log")
     file_handler = logging.FileHandler(log_dir)
     file_handler.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -37,7 +37,7 @@ def logger_creation(name : str):
 
 model = keras.models.load_model(MODEL_PATH)
 app = FastAPI()
-logger = logger_creation("router")
+logger = logger_creation()
 
 
 @app.post("/router")

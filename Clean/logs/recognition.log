@@ -1,0 +1,17 @@
+[2025-05-13 02:41:56,154.154] INFO [281473506832416] - generated new fontManager
+[2025-05-13 02:43:45,196.196] INFO [281473710739488] - generated new fontManager
+[2025-05-13 02:43:49,862.862] INFO [281473710739488] - Started server process [1]
+[2025-05-13 02:43:49,868.868] INFO [281473710739488] - Waiting for application startup.
+[2025-05-13 02:43:49,870.870] INFO [281473710739488] - Application startup complete.
+[2025-05-13 02:43:49,871.871] INFO [281473710739488] - Uvicorn running on http://0.0.0.0:8083 (Press CTRL+C to quit)
+[2025-05-13 02:43:55,548.548] INFO [281473710739488] - 192.168.65.1:47094 - "POST /recognize HTTP/1.1" 200
+[2025-05-13 02:45:54,929.929] INFO [281472857890848] - generated new fontManager
+[2025-05-13 02:46:00,068.068] INFO [281472857890848] - Started server process [1]
+[2025-05-13 02:46:00,069.069] INFO [281472857890848] - Waiting for application startup.
+[2025-05-13 02:46:00,069.069] INFO [281472857890848] - Application startup complete.
+[2025-05-13 02:46:00,070.070] INFO [281472857890848] - Uvicorn running on http://0.0.0.0:8083 (Press CTRL+C to quit)
+[2025-05-13 02:46:15,778.778] INFO [281472857890848] - 192.168.65.1:52104 - "POST /recognize HTTP/1.1" 200
+[2025-05-13 02:46:39,971.971] INFO [281472857890848] - Shutting down
+[2025-05-13 02:46:40,074.074] INFO [281472857890848] - Waiting for application shutdown.
+[2025-05-13 02:46:40,076.076] INFO [281472857890848] - Application shutdown complete.
+[2025-05-13 02:46:40,076.076] INFO [281472857890848] - Finished server process [1]

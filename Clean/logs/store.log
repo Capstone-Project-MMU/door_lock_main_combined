@@ -1,0 +1,715 @@
+[2025-05-13 00:37:51,241.241] INFO [281473057312800] - Loading faiss.
+[2025-05-13 00:37:51,257.257] INFO [281473057312800] - Successfully loaded faiss.
+[2025-05-13 00:37:51,261.261] INFO [281473057312800] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 00:37:51,666.666] INFO [281473057312800] - generated new fontManager
+[2025-05-13 00:37:58,587.587] INFO [281473057312800] - Started server process [1]
+[2025-05-13 00:37:58,587.587] INFO [281473057312800] - Waiting for application startup.
+[2025-05-13 00:37:58,587.587] INFO [281473057312800] - Application startup complete.
+[2025-05-13 00:37:58,588.588] INFO [281473057312800] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 00:40:42,954.954] INFO [281473057312800] - 192.168.65.1:42159 - "POST /store HTTP/1.1" 200
+[2025-05-13 00:45:23,564.564] INFO [281473057312800] - Shutting down
+[2025-05-13 00:45:23,669.669] INFO [281473057312800] - Waiting for application shutdown.
+[2025-05-13 00:45:23,671.671] INFO [281473057312800] - Application shutdown complete.
+[2025-05-13 00:45:23,672.672] INFO [281473057312800] - Finished server process [1]
+[2025-05-13 00:46:00,106.106] INFO [281473726316576] - Loading faiss.
+[2025-05-13 00:46:00,122.122] INFO [281473726316576] - Successfully loaded faiss.
+[2025-05-13 00:46:00,131.131] INFO [281473726316576] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 00:46:00,499.499] INFO [281473726316576] - generated new fontManager
+[2025-05-13 00:48:44,305.305] INFO [281473236664352] - Loading faiss.
+[2025-05-13 00:48:44,313.313] INFO [281473236664352] - Successfully loaded faiss.
+[2025-05-13 00:48:44,318.318] INFO [281473236664352] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 00:48:44,741.741] INFO [281473236664352] - generated new fontManager
+[2025-05-13 00:48:51,243.243] INFO [281473236664352] - Started server process [1]
+[2025-05-13 00:48:51,243.243] INFO [281473236664352] - Waiting for application startup.
+[2025-05-13 00:48:51,243.243] INFO [281473236664352] - Application startup complete.
+[2025-05-13 00:48:51,243.243] INFO [281473236664352] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 00:49:03,547.547] INFO [281473236664352] - 192.168.65.1:49466 - "POST /store HTTP/1.1" 200
+[2025-05-13 00:58:03,707.707] INFO [281473236664352] - Shutting down
+[2025-05-13 00:58:03,812.812] INFO [281473236664352] - Waiting for application shutdown.
+[2025-05-13 00:58:03,813.813] INFO [281473236664352] - Application shutdown complete.
+[2025-05-13 00:58:03,814.814] INFO [281473236664352] - Finished server process [1]
+[2025-05-13 00:58:19,186.186] INFO [281473306808352] - Loading faiss.
+[2025-05-13 00:58:19,205.205] INFO [281473306808352] - Successfully loaded faiss.
+[2025-05-13 00:58:19,206.206] INFO [281473306808352] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 00:58:19,684.684] INFO [281473306808352] - generated new fontManager
+[2025-05-13 00:58:30,969.969] INFO [281473306808352] - Started server process [1]
+[2025-05-13 00:58:30,969.969] INFO [281473306808352] - Waiting for application startup.
+[2025-05-13 00:58:30,969.969] INFO [281473306808352] - Application startup complete.
+[2025-05-13 00:58:30,969.969] INFO [281473306808352] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 00:58:34,347.347] INFO [281473306808352] - 192.168.65.1:60324 - "POST /store HTTP/1.1" 200
+[2025-05-13 00:59:38,431.431] INFO [281473306808352] - Shutting down
+[2025-05-13 00:59:38,538.538] INFO [281473306808352] - Waiting for application shutdown.
+[2025-05-13 00:59:38,540.540] INFO [281473306808352] - Application shutdown complete.
+[2025-05-13 00:59:38,540.540] INFO [281473306808352] - Finished server process [1]
+[2025-05-13 00:59:52,249.249] INFO [281472997810208] - Loading faiss.
+[2025-05-13 00:59:52,260.260] INFO [281472997810208] - Successfully loaded faiss.
+[2025-05-13 00:59:52,267.267] INFO [281472997810208] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 00:59:52,683.683] INFO [281472997810208] - generated new fontManager
+[2025-05-13 00:59:59,115.115] INFO [281472997810208] - Started server process [1]
+[2025-05-13 00:59:59,115.115] INFO [281472997810208] - Waiting for application startup.
+[2025-05-13 00:59:59,116.116] INFO [281472997810208] - Application startup complete.
+[2025-05-13 00:59:59,116.116] INFO [281472997810208] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:00:06,391.391] INFO [281472997810208] - 192.168.65.1:25689 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:08:54,197.197] INFO [281472997810208] - 192.168.65.1:49167 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:09:56,814.814] INFO [281472997810208] - Shutting down
+[2025-05-13 01:09:56,922.922] INFO [281472997810208] - Waiting for application shutdown.
+[2025-05-13 01:09:56,925.925] INFO [281472997810208] - Application shutdown complete.
+[2025-05-13 01:09:56,925.925] INFO [281472997810208] - Finished server process [1]
+[2025-05-13 01:10:33,580.580] INFO [281472912891936] - Loading faiss.
+[2025-05-13 01:10:33,591.591] INFO [281472912891936] - Successfully loaded faiss.
+[2025-05-13 01:10:33,596.596] INFO [281472912891936] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:10:34,010.010] INFO [281472912891936] - generated new fontManager
+[2025-05-13 01:10:40,703.703] INFO [281472912891936] - Started server process [1]
+[2025-05-13 01:10:40,703.703] INFO [281472912891936] - Waiting for application startup.
+[2025-05-13 01:10:40,704.704] INFO [281472912891936] - Application startup complete.
+[2025-05-13 01:10:40,704.704] INFO [281472912891936] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:10:44,121.121] INFO [281472912891936] - 192.168.65.1:28921 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:12:00,876.876] INFO [281472912891936] - 192.168.65.1:56133 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:12:25,117.117] INFO [281472912891936] - 192.168.65.1:38062 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:16:32,218.218] INFO [281472912891936] - 192.168.65.1:42077 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:17:07,478.478] INFO [281472912891936] - 192.168.65.1:29659 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:18:44,818.818] INFO [281472912891936] - Shutting down
+[2025-05-13 01:18:44,924.924] INFO [281472912891936] - Waiting for application shutdown.
+[2025-05-13 01:18:44,926.926] INFO [281472912891936] - Application shutdown complete.
+[2025-05-13 01:18:44,926.926] INFO [281472912891936] - Finished server process [1]
+[2025-05-13 01:18:50,738.738] INFO [281473600245792] - Loading faiss.
+[2025-05-13 01:18:50,752.752] INFO [281473600245792] - Successfully loaded faiss.
+[2025-05-13 01:18:50,756.756] INFO [281473600245792] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:18:51,136.136] INFO [281473600245792] - generated new fontManager
+[2025-05-13 01:18:57,580.580] INFO [281473600245792] - Started server process [1]
+[2025-05-13 01:18:57,581.581] INFO [281473600245792] - Waiting for application startup.
+[2025-05-13 01:18:57,581.581] INFO [281473600245792] - Application startup complete.
+[2025-05-13 01:18:57,582.582] INFO [281473600245792] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:19:00,480.480] INFO [281473600245792] - 192.168.65.1:23905 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:19:56,924.924] INFO [281473600245792] - 192.168.65.1:47390 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:20:14,961.961] INFO [281473600245792] - 192.168.65.1:58968 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:21:12,852.852] INFO [281473600245792] - Shutting down
+[2025-05-13 01:21:12,957.957] INFO [281473600245792] - Waiting for application shutdown.
+[2025-05-13 01:21:12,958.958] INFO [281473600245792] - Application shutdown complete.
+[2025-05-13 01:21:12,959.959] INFO [281473600245792] - Finished server process [1]
+[2025-05-13 01:21:36,200.200] INFO [281473358176288] - Loading faiss.
+[2025-05-13 01:21:36,215.215] INFO [281473358176288] - Successfully loaded faiss.
+[2025-05-13 01:21:36,223.223] INFO [281473358176288] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:21:36,613.613] INFO [281473358176288] - generated new fontManager
+[2025-05-13 01:21:43,210.210] INFO [281473358176288] - Started server process [1]
+[2025-05-13 01:21:43,210.210] INFO [281473358176288] - Waiting for application startup.
+[2025-05-13 01:21:43,210.210] INFO [281473358176288] - Application startup complete.
+[2025-05-13 01:21:43,210.210] INFO [281473358176288] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:21:46,891.891] INFO [281473358176288] - 192.168.65.1:31747 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:22:00,907.907] INFO [281473358176288] - Shutting down
+[2025-05-13 01:22:01,012.012] INFO [281473358176288] - Waiting for application shutdown.
+[2025-05-13 01:22:01,014.014] INFO [281473358176288] - Application shutdown complete.
+[2025-05-13 01:22:01,014.014] INFO [281473358176288] - Finished server process [1]
+[2025-05-13 01:23:13,499.499] INFO [281473213538336] - Loading faiss.
+[2025-05-13 01:23:13,506.506] INFO [281473213538336] - Successfully loaded faiss.
+[2025-05-13 01:23:13,513.513] INFO [281473213538336] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:23:13,941.941] INFO [281473213538336] - generated new fontManager
+[2025-05-13 01:23:20,361.361] INFO [281473213538336] - Started server process [1]
+[2025-05-13 01:23:20,361.361] INFO [281473213538336] - Waiting for application startup.
+[2025-05-13 01:23:20,362.362] INFO [281473213538336] - Application startup complete.
+[2025-05-13 01:23:20,362.362] INFO [281473213538336] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:23:28,994.994] INFO [281473213538336] - 192.168.65.1:26640 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:23:28,994.994] ERROR [281473213538336] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 115, in store_face_endpoint
+    store_face(image_path)
+  File "/app/store_faces.py", line 53, in store_face
+    faiss.write_index(index, INDEX_FILE)
+  File "/usr/local/lib/python3.9/site-packages/faiss/swigfaiss.py", line 11635, in write_index
+    return _swigfaiss.write_index(*args)
+RuntimeError: Error in faiss::FileIOWriter::FileIOWriter(const char*) at /project/faiss/faiss/impl/io.cpp:101: Error: 'f' failed: could not open fais_db/filtered_face_index.faiss for writing: No such file or directory
+[2025-05-13 01:23:32,262.262] INFO [281473213538336] - 192.168.65.1:17123 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:23:32,263.263] ERROR [281473213538336] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 115, in store_face_endpoint
+    store_face(image_path)
+  File "/app/store_faces.py", line 53, in store_face
+    faiss.write_index(index, INDEX_FILE)
+  File "/usr/local/lib/python3.9/site-packages/faiss/swigfaiss.py", line 11635, in write_index
+    return _swigfaiss.write_index(*args)
+RuntimeError: Error in faiss::FileIOWriter::FileIOWriter(const char*) at /project/faiss/faiss/impl/io.cpp:101: Error: 'f' failed: could not open fais_db/filtered_face_index.faiss for writing: No such file or directory
+[2025-05-13 01:24:35,481.481] INFO [281473213538336] - 192.168.65.1:41670 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:24:35,482.482] ERROR [281473213538336] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 115, in store_face_endpoint
+    store_face(image_path)
+  File "/app/store_faces.py", line 53, in store_face
+    faiss.write_index(index, INDEX_FILE)
+  File "/usr/local/lib/python3.9/site-packages/faiss/swigfaiss.py", line 11635, in write_index
+    return _swigfaiss.write_index(*args)
+RuntimeError: Error in faiss::FileIOWriter::FileIOWriter(const char*) at /project/faiss/faiss/impl/io.cpp:101: Error: 'f' failed: could not open fais_db/filtered_face_index.faiss for writing: No such file or directory
+[2025-05-13 01:26:58,324.324] INFO [281472869670944] - Loading faiss.
+[2025-05-13 01:26:58,336.336] INFO [281472869670944] - Successfully loaded faiss.
+[2025-05-13 01:26:58,339.339] INFO [281472869670944] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:26:58,744.744] INFO [281472869670944] - generated new fontManager
+[2025-05-13 01:27:05,231.231] INFO [281472869670944] - Started server process [1]
+[2025-05-13 01:27:05,231.231] INFO [281472869670944] - Waiting for application startup.
+[2025-05-13 01:27:05,231.231] INFO [281472869670944] - Application startup complete.
+[2025-05-13 01:27:05,232.232] INFO [281472869670944] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:27:25,841.841] INFO [281472869670944] - 192.168.65.1:46691 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:27:25,842.842] ERROR [281472869670944] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 115, in store_face_endpoint
+    store_face(image_path)
+  File "/app/store_faces.py", line 53, in store_face
+    faiss.write_index(index, INDEX_FILE)
+  File "/usr/local/lib/python3.9/site-packages/faiss/swigfaiss.py", line 11635, in write_index
+    return _swigfaiss.write_index(*args)
+RuntimeError: Error in faiss::FileIOWriter::FileIOWriter(const char*) at /project/faiss/faiss/impl/io.cpp:101: Error: 'f' failed: could not open fais_db/filtered_face_index.faiss for writing: No such file or directory
+[2025-05-13 01:27:49,720.720] INFO [281472869670944] - Shutting down
+[2025-05-13 01:27:49,826.826] INFO [281472869670944] - Waiting for application shutdown.
+[2025-05-13 01:27:49,827.827] INFO [281472869670944] - Application shutdown complete.
+[2025-05-13 01:27:49,827.827] INFO [281472869670944] - Finished server process [1]
+[2025-05-13 01:27:52,719.719] INFO [281473236316192] - Loading faiss.
+[2025-05-13 01:27:52,745.745] INFO [281473236316192] - Successfully loaded faiss.
+[2025-05-13 01:27:52,746.746] INFO [281473236316192] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:27:53,132.132] INFO [281473236316192] - generated new fontManager
+[2025-05-13 01:27:59,438.438] INFO [281473236316192] - Started server process [1]
+[2025-05-13 01:27:59,438.438] INFO [281473236316192] - Waiting for application startup.
+[2025-05-13 01:27:59,438.438] INFO [281473236316192] - Application startup complete.
+[2025-05-13 01:27:59,439.439] INFO [281473236316192] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:28:04,349.349] INFO [281473236316192] - 192.168.65.1:54259 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:28:04,350.350] ERROR [281473236316192] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 115, in store_face_endpoint
+    store_face(image_path)
+  File "/app/store_faces.py", line 53, in store_face
+    faiss.write_index(index, INDEX_FILE)
+  File "/usr/local/lib/python3.9/site-packages/faiss/swigfaiss.py", line 11635, in write_index
+    return _swigfaiss.write_index(*args)
+RuntimeError: Error in faiss::FileIOWriter::FileIOWriter(const char*) at /project/faiss/faiss/impl/io.cpp:101: Error: 'f' failed: could not open fais_db/filtered_face_index.faiss for writing: No such file or directory
+[2025-05-13 01:28:07,084.084] INFO [281473236316192] - 192.168.65.1:54677 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:28:07,085.085] ERROR [281473236316192] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 115, in store_face_endpoint
+    store_face(image_path)
+  File "/app/store_faces.py", line 53, in store_face
+    faiss.write_index(index, INDEX_FILE)
+  File "/usr/local/lib/python3.9/site-packages/faiss/swigfaiss.py", line 11635, in write_index
+    return _swigfaiss.write_index(*args)
+RuntimeError: Error in faiss::FileIOWriter::FileIOWriter(const char*) at /project/faiss/faiss/impl/io.cpp:101: Error: 'f' failed: could not open fais_db/filtered_face_index.faiss for writing: No such file or directory
+[2025-05-13 01:28:19,135.135] INFO [281473236316192] - 192.168.65.1:34145 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:28:19,135.135] ERROR [281473236316192] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 115, in store_face_endpoint
+    store_face(image_path)
+  File "/app/store_faces.py", line 53, in store_face
+    faiss.write_index(index, INDEX_FILE)
+  File "/usr/local/lib/python3.9/site-packages/faiss/swigfaiss.py", line 11635, in write_index
+    return _swigfaiss.write_index(*args)
+RuntimeError: Error in faiss::FileIOWriter::FileIOWriter(const char*) at /project/faiss/faiss/impl/io.cpp:101: Error: 'f' failed: could not open fais_db/filtered_face_index.faiss for writing: No such file or directory
+[2025-05-13 01:29:26,346.346] INFO [281473236316192] - Shutting down
+[2025-05-13 01:29:26,454.454] INFO [281473236316192] - Waiting for application shutdown.
+[2025-05-13 01:29:26,455.455] INFO [281473236316192] - Application shutdown complete.
+[2025-05-13 01:29:26,456.456] INFO [281473236316192] - Finished server process [1]
+[2025-05-13 01:30:03,253.253] INFO [281473189507104] - Loading faiss.
+[2025-05-13 01:30:03,269.269] INFO [281473189507104] - Successfully loaded faiss.
+[2025-05-13 01:30:03,274.274] INFO [281473189507104] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:30:03,657.657] INFO [281473189507104] - generated new fontManager
+[2025-05-13 01:30:10,331.331] INFO [281473189507104] - Started server process [1]
+[2025-05-13 01:30:10,331.331] INFO [281473189507104] - Waiting for application startup.
+[2025-05-13 01:30:10,332.332] INFO [281473189507104] - Application startup complete.
+[2025-05-13 01:30:10,332.332] INFO [281473189507104] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:30:15,873.873] INFO [281473189507104] - 192.168.65.1:21524 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:32:27,184.184] INFO [281473189507104] - Shutting down
+[2025-05-13 01:32:27,294.294] INFO [281473189507104] - Waiting for application shutdown.
+[2025-05-13 01:32:27,296.296] INFO [281473189507104] - Application shutdown complete.
+[2025-05-13 01:32:27,297.297] INFO [281473189507104] - Finished server process [1]
+[2025-05-13 01:32:59,425.425] INFO [281473662525472] - Loading faiss.
+[2025-05-13 01:32:59,448.448] INFO [281473662525472] - Successfully loaded faiss.
+[2025-05-13 01:32:59,449.449] INFO [281473662525472] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:32:59,848.848] INFO [281473662525472] - generated new fontManager
+[2025-05-13 01:33:06,520.520] INFO [281473662525472] - Started server process [1]
+[2025-05-13 01:33:06,520.520] INFO [281473662525472] - Waiting for application startup.
+[2025-05-13 01:33:06,520.520] INFO [281473662525472] - Application startup complete.
+[2025-05-13 01:33:06,521.521] INFO [281473662525472] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:33:13,175.175] INFO [281473662525472] - 192.168.65.1:34208 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:33:56,003.003] INFO [281473662525472] - 192.168.65.1:55012 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:34:07,507.507] INFO [281473662525472] - Shutting down
+[2025-05-13 01:34:07,615.615] INFO [281473662525472] - Waiting for application shutdown.
+[2025-05-13 01:34:07,616.616] INFO [281473662525472] - Application shutdown complete.
+[2025-05-13 01:34:07,617.617] INFO [281473662525472] - Finished server process [1]
+[2025-05-13 01:34:09,513.513] INFO [281473580617760] - Loading faiss.
+[2025-05-13 01:34:09,529.529] INFO [281473580617760] - Successfully loaded faiss.
+[2025-05-13 01:34:09,532.532] INFO [281473580617760] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:34:09,973.973] INFO [281473580617760] - generated new fontManager
+[2025-05-13 01:34:16,275.275] INFO [281473580617760] - Started server process [1]
+[2025-05-13 01:34:16,276.276] INFO [281473580617760] - Waiting for application startup.
+[2025-05-13 01:34:16,277.277] INFO [281473580617760] - Application startup complete.
+[2025-05-13 01:34:16,277.277] INFO [281473580617760] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:34:19,431.431] INFO [281473580617760] - 192.168.65.1:42224 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:38:01,767.767] INFO [281473580617760] - Shutting down
+[2025-05-13 01:38:01,875.875] INFO [281473580617760] - Waiting for application shutdown.
+[2025-05-13 01:38:01,877.877] INFO [281473580617760] - Application shutdown complete.
+[2025-05-13 01:38:01,878.878] INFO [281473580617760] - Finished server process [1]
+[2025-05-13 01:38:42,019.019] INFO [281473322299424] - Loading faiss.
+[2025-05-13 01:38:42,032.032] INFO [281473322299424] - Successfully loaded faiss.
+[2025-05-13 01:38:42,035.035] INFO [281473322299424] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:38:42,436.436] INFO [281473322299424] - generated new fontManager
+[2025-05-13 01:38:49,281.281] INFO [281473322299424] - Started server process [1]
+[2025-05-13 01:38:49,282.282] INFO [281473322299424] - Waiting for application startup.
+[2025-05-13 01:38:49,282.282] INFO [281473322299424] - Application startup complete.
+[2025-05-13 01:38:49,282.282] INFO [281473322299424] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:38:53,268.268] INFO [281473322299424] - 192.168.65.1:45813 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:40:40,044.044] INFO [281473322299424] - 192.168.65.1:39850 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:42:25,313.313] INFO [281473322299424] - 192.168.65.1:16919 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:42:38,968.968] INFO [281473322299424] - 192.168.65.1:60335 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:43:13,117.117] INFO [281473322299424] - Shutting down
+[2025-05-13 01:43:13,220.220] INFO [281473322299424] - Waiting for application shutdown.
+[2025-05-13 01:43:13,222.222] INFO [281473322299424] - Application shutdown complete.
+[2025-05-13 01:43:13,223.223] INFO [281473322299424] - Finished server process [1]
+[2025-05-13 01:48:16,318.318] INFO [281472983253024] - Loading faiss.
+[2025-05-13 01:48:16,339.339] INFO [281472983253024] - Successfully loaded faiss.
+[2025-05-13 01:48:16,346.346] INFO [281472983253024] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:48:16,747.747] INFO [281472983253024] - generated new fontManager
+[2025-05-13 01:48:23,535.535] INFO [281472983253024] - Started server process [1]
+[2025-05-13 01:48:23,537.537] INFO [281472983253024] - Waiting for application startup.
+[2025-05-13 01:48:23,537.537] INFO [281472983253024] - Application startup complete.
+[2025-05-13 01:48:23,537.537] INFO [281472983253024] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:48:34,908.908] INFO [281472983253024] - 192.168.65.1:33475 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:48:34,909.909] ERROR [281472983253024] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 84, in store_face_endpoint
+    subprocess.Popen(
+  File "/usr/local/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.9/subprocess.py", line 1837, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '../add_filter_docker'
+[2025-05-13 01:48:42,059.059] INFO [281472983253024] - 192.168.65.1:30680 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:48:42,060.060] ERROR [281472983253024] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 84, in store_face_endpoint
+    subprocess.Popen(
+  File "/usr/local/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.9/subprocess.py", line 1837, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '../add_filter_docker'
+[2025-05-13 01:51:25,175.175] INFO [281472983253024] - Shutting down
+[2025-05-13 01:51:25,281.281] INFO [281472983253024] - Waiting for application shutdown.
+[2025-05-13 01:51:25,283.283] INFO [281472983253024] - Application shutdown complete.
+[2025-05-13 01:51:25,284.284] INFO [281472983253024] - Finished server process [1]
+[2025-05-13 01:51:35,220.220] INFO [281473213894688] - Loading faiss.
+[2025-05-13 01:51:35,230.230] INFO [281473213894688] - Successfully loaded faiss.
+[2025-05-13 01:51:35,234.234] INFO [281473213894688] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:51:35,636.636] INFO [281473213894688] - generated new fontManager
+[2025-05-13 01:51:42,608.608] INFO [281473213894688] - Started server process [1]
+[2025-05-13 01:51:42,608.608] INFO [281473213894688] - Waiting for application startup.
+[2025-05-13 01:51:42,609.609] INFO [281473213894688] - Application startup complete.
+[2025-05-13 01:51:42,609.609] INFO [281473213894688] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:51:51,376.376] INFO [281473213894688] - 192.168.65.1:64435 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:52:06,473.473] INFO [281473213894688] - 192.168.65.1:19124 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:53:38,060.060] INFO [281473035722784] - Loading faiss.
+[2025-05-13 01:53:38,076.076] INFO [281473035722784] - Successfully loaded faiss.
+[2025-05-13 01:53:38,078.078] INFO [281473035722784] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:53:38,541.541] INFO [281473035722784] - generated new fontManager
+[2025-05-13 01:53:44,836.836] INFO [281473035722784] - Started server process [1]
+[2025-05-13 01:53:44,836.836] INFO [281473035722784] - Waiting for application startup.
+[2025-05-13 01:53:44,837.837] INFO [281473035722784] - Application startup complete.
+[2025-05-13 01:53:44,837.837] INFO [281473035722784] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 01:55:20,876.876] INFO [281473035722784] - 192.168.65.1:63646 - "POST /store HTTP/1.1" 200
+[2025-05-13 01:59:33,898.898] INFO [281473035722784] - 192.168.65.1:35086 - "POST /store HTTP/1.1" 500
+[2025-05-13 01:59:33,899.899] ERROR [281473035722784] - Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/app/api.py", line 78, in store_face_endpoint
+    image_path = save_uploaded_file(image)
+  File "/app/api.py", line 56, in save_uploaded_file
+    with open(file_path, "wb") as buffer:
+PermissionError: [Errno 1] Operation not permitted: '/uploads/moh.png'
+[2025-05-13 01:59:48,758.758] INFO [281473035722784] - Shutting down
+[2025-05-13 01:59:48,862.862] INFO [281473035722784] - Waiting for application shutdown.
+[2025-05-13 01:59:48,863.863] INFO [281473035722784] - Application shutdown complete.
+[2025-05-13 01:59:48,864.864] INFO [281473035722784] - Finished server process [1]
+[2025-05-13 01:59:51,207.207] INFO [281473623797792] - Loading faiss.
+[2025-05-13 01:59:51,220.220] INFO [281473623797792] - Successfully loaded faiss.
+[2025-05-13 01:59:51,228.228] INFO [281473623797792] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 01:59:51,682.682] INFO [281473623797792] - generated new fontManager
+[2025-05-13 01:59:58,342.342] INFO [281473623797792] - Started server process [1]
+[2025-05-13 01:59:58,342.342] INFO [281473623797792] - Waiting for application startup.
+[2025-05-13 01:59:58,342.342] INFO [281473623797792] - Application startup complete.
+[2025-05-13 01:59:58,343.343] INFO [281473623797792] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 02:00:10,215.215] INFO [281473623797792] - 192.168.65.1:47953 - "POST /store HTTP/1.1" 200
+[2025-05-13 02:09:44,805.805] INFO [281473660747808] - Loading faiss.
+[2025-05-13 02:09:44,822.822] INFO [281473660747808] - Successfully loaded faiss.
+[2025-05-13 02:09:44,824.824] INFO [281473660747808] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 02:09:45,431.431] INFO [281473660747808] - generated new fontManager
+[2025-05-13 02:09:56,601.601] INFO [281473660747808] - Started server process [1]
+[2025-05-13 02:09:56,601.601] INFO [281473660747808] - Waiting for application startup.
+[2025-05-13 02:09:56,601.601] INFO [281473660747808] - Application startup complete.
+[2025-05-13 02:09:56,601.601] INFO [281473660747808] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 02:10:05,513.513] INFO [281473660747808] - 192.168.65.1:38983 - "POST /store HTTP/1.1" 200
+[2025-05-13 02:11:16,666.666] INFO [281473660747808] - Shutting down
+[2025-05-13 02:11:16,769.769] INFO [281473660747808] - Waiting for application shutdown.
+[2025-05-13 02:11:16,770.770] INFO [281473660747808] - Application shutdown complete.
+[2025-05-13 02:11:16,770.770] INFO [281473660747808] - Finished server process [1]
+[2025-05-13 02:12:00,779.779] INFO [281473548427296] - Loading faiss.
+[2025-05-13 02:12:00,791.791] INFO [281473548427296] - Successfully loaded faiss.
+[2025-05-13 02:12:00,798.798] INFO [281473548427296] - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2025-05-13 02:12:01,174.174] INFO [281473548427296] - generated new fontManager
+[2025-05-13 02:12:07,446.446] INFO [281473548427296] - Started server process [1]
+[2025-05-13 02:12:07,446.446] INFO [281473548427296] - Waiting for application startup.
+[2025-05-13 02:12:07,447.447] INFO [281473548427296] - Application startup complete.
+[2025-05-13 02:12:07,447.447] INFO [281473548427296] - Uvicorn running on http://0.0.0.0:8084 (Press CTRL+C to quit)
+[2025-05-13 02:12:18,111.111] INFO [281473548427296] - 192.168.65.1:29691 - "POST /store HTTP/1.1" 200
+[2025-05-13 02:12:53,941.941] INFO [281473548427296] - 192.168.65.1:42106 - "POST /store HTTP/1.1" 200

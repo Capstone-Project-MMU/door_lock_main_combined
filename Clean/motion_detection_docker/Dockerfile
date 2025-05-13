@@ -29,4 +29,4 @@ COPY . .
 EXPOSE 8081
 
 # Run FastAPI using Uvicorn
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8081"]
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8081", "--log-config", "log.ini"]

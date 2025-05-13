@@ -4,5 +4,6 @@ matplotlib
 seaborn
 fastapi
 keras
+uvicorn
 # pip install tensorflow-macos
 # pip install tensorflow-metal

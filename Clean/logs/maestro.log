@@ -1,0 +1,1264 @@
+2025-05-13 08:09:46,544 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:09:46,545 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:09:46,545 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:09:46,546 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:09:46,547 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,547 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,547 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,547 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,548 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,553 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,553 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,554 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,554 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,554 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,554 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,555 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,555 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,555 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,555 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,556 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,556 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,556 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,556 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,556 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,557 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,557 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,557 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:09:46,557 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:09:46,557 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:09:46,557 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:09:46,570 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:09:47,046 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 08:09:47,047 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 08:18:43,050 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:18:43,050 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:18:43,051 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:18:43,052 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:18:43,052 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,052 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,053 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,053 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,053 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,054 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,054 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,055 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,055 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,056 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,056 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,056 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,058 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,058 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,058 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,058 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,058 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,059 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,059 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:43,059 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:18:43,059 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:18:43,059 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:18:43,063 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:18:43,574 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 08:18:43,574 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:18:55,573 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,574 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,574 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,574 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,575 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,575 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,575 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,576 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,576 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,576 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,577 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,579 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,579 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,579 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,580 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,580 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,580 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,580 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,581 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:18:55,581 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:18:55,581 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:18:55,581 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:18:55,583 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:18:56,017 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 08:18:56,017 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,267 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,267 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,267 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,270 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,270 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,270 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,270 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,271 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,271 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,271 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,271 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,271 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,272 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,272 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,272 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,272 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,272 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,273 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,273 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,273 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,273 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:19:06,273 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:19:06,273 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:19:06,273 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:19:06,278 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:19:06,681 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 08:19:06,681 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:21:17,712 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:21:17,713 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,713 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,713 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,713 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,714 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,718 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,718 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,718 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,718 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,719 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,719 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,719 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,719 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,719 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,720 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,720 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,720 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,720 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,721 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,721 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,721 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,721 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,721 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:21:17,722 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:21:17,722 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:21:17,722 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:21:17,728 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:21:18,255 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 08:21:18,256 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:40:42,365 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:40:42,366 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,366 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,366 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,366 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,367 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,367 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,368 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,368 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,368 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,369 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,369 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,369 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,370 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,370 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,371 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,371 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,372 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,372 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,372 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,372 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,373 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,373 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,373 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:40:42,373 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:40:42,373 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:40:42,373 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:40:42,376 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:40:42,956 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 08:40:42,957 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 08:49:03,046 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:49:03,046 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:49:03,046 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:49:03,046 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:49:03,046 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:49:03,046 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:49:03,047 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:49:03,048 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,048 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,048 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,048 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,049 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,050 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,051 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,051 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,053 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,053 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,054 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,054 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,054 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,055 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,055 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,055 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,056 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,056 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,056 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,056 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:49:03,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:49:03,057 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:49:03,057 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:49:03,064 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:49:03,548 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 08:49:03,549 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 08:58:33,727 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 08:58:33,728 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 08:58:33,729 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,729 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,729 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,730 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,731 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,733 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,734 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,734 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,735 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,735 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,736 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,736 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,737 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,737 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,737 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,737 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,738 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,738 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,738 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,739 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,739 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,739 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,739 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 08:58:33,739 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 08:58:33,739 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 08:58:33,739 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 08:58:33,747 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 08:58:34,347 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 08:58:34,348 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:00:05,755 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:00:05,756 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,757 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,757 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,757 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,758 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,758 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,759 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,759 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,759 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,760 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,760 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,761 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,761 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,762 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,762 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,762 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,763 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,763 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,763 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,763 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,764 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,764 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,764 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:00:05,764 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:00:05,764 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:00:05,764 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:00:05,769 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:00:06,393 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:00:06,393 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:08:53,373 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:08:53,374 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,374 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,374 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,374 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,375 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,376 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,376 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,377 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,377 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,377 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,378 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,378 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,378 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,378 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,378 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,379 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,379 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,379 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,379 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,380 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,380 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,380 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,380 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:08:53,381 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:08:53,381 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:08:53,381 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:08:53,383 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:08:54,200 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:08:54,201 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:10:43,258 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:10:43,259 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:10:43,260 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,260 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,260 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,260 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,261 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,262 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,262 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,264 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,264 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,265 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,265 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,265 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,265 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,267 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,267 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,268 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,268 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,269 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,269 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,269 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:10:43,270 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:10:43,270 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:10:43,270 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:10:43,277 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:10:44,123 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:10:44,124 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:12:00,152 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:12:00,153 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,154 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,154 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,154 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,154 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,155 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,155 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,156 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,156 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,156 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,157 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,157 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,157 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,158 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,158 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,158 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,158 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,158 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,159 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,160 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,160 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:12:00,160 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:12:00,160 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:12:00,167 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:12:00,878 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:12:00,879 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:12:00,894 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:12:00,894 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:12:00,894 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:100]
+2025-05-13 09:12:00,894 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:12:00,894 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:12:00,894 - python_multipart.multipart - DEBUG - Calling on_part_data with data[104:261881]
+2025-05-13 09:12:00,895 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,896 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,898 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,898 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,900 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,900 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,901 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,901 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,901 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,901 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,902 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,902 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,903 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,903 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,903 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,905 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,906 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,906 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,906 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,906 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,907 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:00,907 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184577]
+2025-05-13 09:12:00,907 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:12:00,907 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:12:00,917 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8085
+2025-05-13 09:12:24,510 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:12:24,510 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:12:24,510 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:12:24,510 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:12:24,510 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,511 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,512 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,512 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,512 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,513 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,513 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,513 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,513 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,514 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,514 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,514 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,514 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,515 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,515 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,515 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,515 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,516 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,516 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,516 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,516 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,516 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:12:24,517 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:12:24,517 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:12:24,517 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:12:24,518 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:12:25,119 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:12:25,119 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:16:31,603 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,604 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,605 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,605 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,605 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,606 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,606 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,607 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,607 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,608 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,608 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,608 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,609 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,609 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,609 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,609 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,610 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,610 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,610 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,610 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,610 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,611 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:16:31,611 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:16:31,611 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:16:31,611 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:16:31,614 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:16:32,219 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:16:32,220 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:17:06,934 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:17:06,935 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:17:06,935 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,935 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,935 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,936 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,936 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,937 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,937 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,937 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,938 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,938 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,938 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,938 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,939 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,939 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,939 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,939 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,940 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,940 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,940 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,940 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,941 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,941 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,941 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:17:06,941 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:17:06,941 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:17:06,941 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:17:06,943 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:17:07,479 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:17:07,480 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:18:59,874 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:18:59,875 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:18:59,876 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,876 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,876 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,876 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,877 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,878 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,878 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,879 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,879 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,879 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,880 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,880 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,880 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,880 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,881 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,881 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,881 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,881 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,882 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,882 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,883 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,883 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,883 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:18:59,884 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:18:59,884 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:18:59,884 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:18:59,890 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:19:00,483 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:19:00,483 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:19:56,392 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,393 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,394 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,394 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,395 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,395 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,395 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,396 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,396 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,396 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,397 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,397 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,397 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,397 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,398 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,399 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,399 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,399 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,399 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,400 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,400 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,401 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:19:56,401 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:19:56,401 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:19:56,401 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:19:56,403 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:19:56,925 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:19:56,925 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:228390]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,461 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,462 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,462 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,463 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,463 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,464 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,464 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,464 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,464 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,465 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,465 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,465 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,466 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,466 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,466 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,467 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,467 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,467 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,467 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,468 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,468 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,468 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:20:14,468 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:218265]
+2025-05-13 09:20:14,468 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:20:14,468 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:20:14,470 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:20:14,962 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:20:14,963 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:21:46,299 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:21:46,300 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,300 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,301 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,301 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,302 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,303 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,303 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,304 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,305 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,305 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,306 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,306 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,306 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,307 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,307 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,307 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,307 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,308 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,308 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,308 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,308 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,309 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,309 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:21:46,309 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:21:46,309 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:21:46,309 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:21:46,313 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:21:46,892 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 200 47
+2025-05-13 09:21:46,893 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:23:28,470 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:23:28,471 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:23:28,472 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:23:28,473 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,473 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,473 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,473 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,474 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,477 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,478 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,478 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,479 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,479 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,479 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,479 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,480 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,480 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,480 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,480 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,481 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,481 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,481 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,481 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,482 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,482 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,482 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:28,482 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:23:28,482 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:23:28,482 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:23:28,486 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:23:28,996 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 09:23:28,997 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,684 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,685 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,685 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,685 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,686 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,687 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,687 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,687 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,687 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,688 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,688 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,688 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,689 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,689 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,689 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,690 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,690 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,690 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,690 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,690 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,691 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,691 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:23:31,691 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:23:31,691 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:23:31,691 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:23:31,693 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:23:32,264 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 09:23:32,264 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:24:34,898 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:24:34,898 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:24:34,898 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:24:34,898 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:24:34,898 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:24:34,898 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:24:34,898 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,899 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,900 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,900 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,900 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,901 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,901 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,902 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,902 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,902 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,903 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,903 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,903 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,903 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,904 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,904 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,904 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,904 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,905 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,905 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,905 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:24:34,905 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:24:34,905 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:24:34,905 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:24:34,907 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:24:35,484 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 09:24:35,484 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:27:25,128 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:27:25,129 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:27:25,130 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,130 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,130 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,130 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,131 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,132 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,132 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,132 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,133 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,133 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,133 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,133 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,134 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,134 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,134 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,134 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,135 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,135 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,135 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,135 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,135 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,136 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,136 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:27:25,136 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:27:25,136 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:27:25,136 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:27:25,139 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:27:25,843 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 09:27:25,844 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:28:03,637 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:28:03,638 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,639 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,639 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,639 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,639 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,640 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,640 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,641 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,641 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,641 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,642 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,642 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,642 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,642 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,643 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,643 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,643 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,643 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,643 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,644 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,644 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,644 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,644 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:03,645 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:28:03,645 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:28:03,645 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:28:03,647 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:28:04,352 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 09:28:04,353 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:86]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_data with data[90:97]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_field with data[135:154]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_value with data[156:186]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_data with data[190:195]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_field with data[233:252]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_value with data[254:297]
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-05-13 09:28:06,571 - python_multipart.multipart - DEBUG - Calling on_part_data with data[301:261886]
+2025-05-13 09:28:06,572 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,572 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,573 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,573 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,574 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,575 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,575 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,575 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,576 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,576 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,576 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,576 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,577 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,577 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,577 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,577 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,578 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,579 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,579 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:262144]
+2025-05-13 09:28:06,579 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:184769]
+2025-05-13 09:28:06,579 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-05-13 09:28:06,579 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-05-13 09:28:06,581 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8084
+2025-05-13 09:28:07,086 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8084 "POST /store HTTP/1.1" 500 21
+2025-05-13 09:28:07,087 - root - DEBUG - [maestro] Response from /store has been recieved
+2025-05-13 10:32:02,684 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2025-05-13 10:32:02,883 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /detect HTTP/1.1" 500 21
+2025-05-13 10:43:52,613 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2025-05-13 10:43:55,554 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /detect HTTP/1.1" 200 14
+2025-05-13 10:46:11,024 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2025-05-13 10:46:17,793 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /recognize HTTP/1.1" 200 14
