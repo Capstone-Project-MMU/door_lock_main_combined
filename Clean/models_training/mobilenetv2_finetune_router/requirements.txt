@@ -3,5 +3,10 @@ scikit-learn
 matplotlib
 seaborn
 keras
-#pip install tensorflow-macos
-#pip install tensorflow-metal
+
+#curl -L -O https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
+#bash Miniforge3-MacOSX-arm64.sh
+#conda create -n mn python=3.10
+#conda activate mn
+#conda install -c apple tensorflow-deps
+#pip install tensorflow tensorflow-metal
