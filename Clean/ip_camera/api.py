@@ -7,19 +7,12 @@ import os
 from ip_camera import generate_images
 
 """
-Note: I actually can't test if docker works because i am running this docker on macOS which
-does allow for camera access to docker no matter what. Though it important to note this code 
-works outside of docker
-uvicorn api:app --host 0.0.0.0 --port 8079
-docker build -t camera .
-docker run \
-    -v /Users/omarsalahwork/Documents/Codes/Capstone/door_lock_main_combined/Clean/logs:/logs \
-    -p 8079:8079 \
-    camera
+Note: After alot of testing, this file doesn't work in docker due to camera access issues. 
+uvicorn api:app --host 0.0.0.0 --port 8079 --log-config log.ini
 """
 
 def logger_creation():
-    log_dir = "logs"
+    log_dir = "../logs"
     
     docker_logger = logging.getLogger()
     docker_logger.setLevel(logging.DEBUG)
@@ -35,7 +28,7 @@ def logger_creation():
     
     return docker_logger
 
-        
+
 camera = cv2.VideoCapture(0)
 app = FastAPI()
 logger = logger_creation()

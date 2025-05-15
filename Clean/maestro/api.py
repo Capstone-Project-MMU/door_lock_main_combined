@@ -12,9 +12,10 @@ import logging
 import time
 import os
 
-#uvicorn api:app --host 0.0.0.0 --port 8080
-#docker build -t maestro .
-#docker run -p 8080:8080 maestro
+""""
+uvicorn api:app --host 0.0.0.0 --port 8080 --log-config log.ini
+"""
+
 
 def logger_creation():
     log_dir = "../logs"
