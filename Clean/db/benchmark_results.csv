@@ -1,0 +1,4 @@
+Function,Time (s),Error
+store_face,4.76837158203125e-06,store_face() takes 1 positional argument but 3 were given
+apply_filters,3.0994415283203125e-06,apply_filters() missing 2 required positional arguments: 'output_dir' and 'person_name'
+search_face,0.3344297409057617,'>' not supported between instances of 'str' and 'int'

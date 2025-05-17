@@ -56,7 +56,10 @@ def store_face(image_path):
 
     return {"message": f"Face stored as {filename}"}
 if __name__ == "__main__":
-    image_path = "moh.png" 
-    # Store the face image
-    response = store_face(image_path)
-    print(response)
+    # loop through all .png files in test_images directory then call store_face
+    test_images_dir = "test_images"
+    for filename in os.listdir(test_images_dir):
+        if filename.endswith(".png"):
+            image_path = os.path.join(test_images_dir, filename)
+            result = store_face(image_path)
+            print(result)

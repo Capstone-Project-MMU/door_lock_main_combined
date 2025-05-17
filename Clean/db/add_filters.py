@@ -32,13 +32,14 @@ def apply_filters(image_path, output_dir, person_name):
 
     # Filters requiring PIL
     brightness_up = ImageEnhance.Brightness(img_pil).enhance(1.5)
-    brightness_up.save(os.path.join(output_dir, f"{person_name}_brightness_up.jpg"))
+    brightness_up.convert("RGB").save(os.path.join(output_dir, f"{person_name}_brightness_up.jpg"))
 
     brightness_down = ImageEnhance.Brightness(img_pil).enhance(0.5)
-    brightness_down.save(os.path.join(output_dir, f"{person_name}_brightness_down.jpg"))
+    brightness_down.convert("RGB").save(os.path.join(output_dir, f"{person_name}_brightness_down.jpg"))
 
     contrast_up = ImageEnhance.Contrast(img_pil).enhance(1.5)
-    contrast_up.save(os.path.join(output_dir, f"{person_name}_contrast_up.jpg"))
+    contrast_up.convert("RGB").save(os.path.join(output_dir, f"{person_name}_contrast_up.jpg"))
+
 
     print(f"Filters applied and images saved in {output_dir}")
 
