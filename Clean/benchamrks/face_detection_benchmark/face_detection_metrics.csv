@@ -1,0 +1,222 @@
+Filename,Ground Truth,Prediction,Inference Time (s)
+Mohamed_brightness_down.jpg,1,1,0.073006792
+Mohamed_brightness_up.jpg,1,1,0.007319333
+Mohamed_contrast_up.jpg,1,1,0.01132825
+Mohamed_gaussian_blur.jpg,1,1,0.006661834
+Mohamed_grayscale.jpg,1,1,0.006394041
+Mohamed_histogram_equalized.jpg,1,1,0.009387875
+Mohamed_inverted.jpg,1,0,0.008733542
+Mohamed_motion_blur.jpg,1,0,0.00818075
+Mohamed_original.jpg,1,1,0.007374917
+Mohamed_sepia.jpg,1,1,0.005880917
+image copy 10.png,0,0,0.005251833
+image copy 10_brightness_down.jpg,0,0,0.0043885
+image copy 10_brightness_up.jpg,0,0,0.004668917
+image copy 10_contrast_up.jpg,0,0,0.004706375
+image copy 10_gaussian_blur.jpg,0,0,0.004184916
+image copy 10_grayscale.jpg,0,0,0.004885958
+image copy 10_histogram_equalized.jpg,0,0,0.009966083
+image copy 10_inverted.jpg,0,0,0.004429042
+image copy 10_motion_blur.jpg,0,0,0.005213542
+image copy 10_original.jpg,0,0,0.004307834
+image copy 10_sepia.jpg,0,0,0.008661583
+image copy 11.png,0,0,0.003866583
+image copy 11_brightness_down.jpg,0,0,0.004235292
+image copy 11_brightness_up.jpg,0,0,0.004682292
+image copy 11_contrast_up.jpg,0,0,0.004545791
+image copy 11_gaussian_blur.jpg,0,0,0.011756083
+image copy 11_grayscale.jpg,0,0,0.007911833
+image copy 11_histogram_equalized.jpg,0,0,0.004405
+image copy 11_inverted.jpg,0,0,0.004279
+image copy 11_motion_blur.jpg,0,0,0.004606167
+image copy 11_original.jpg,0,0,0.004083542
+image copy 11_sepia.jpg,0,0,0.003857125
+image copy 12_brightness_down.jpg,0,0,0.004204833
+image copy 12_brightness_up.jpg,0,0,0.004734875
+image copy 12_contrast_up.jpg,0,0,0.008246333
+image copy 12_gaussian_blur.jpg,0,0,0.003849958
+image copy 12_grayscale.jpg,0,0,0.005597
+image copy 12_histogram_equalized.jpg,0,0,0.004048833
+image copy 12_inverted.jpg,0,0,0.008080833
+image copy 12_motion_blur.jpg,0,0,0.004208125
+image copy 12_original.jpg,0,0,0.009677916
+image copy 12_sepia.jpg,0,0,0.004562458
+image copy 13_brightness_down.jpg,0,0,0.006441708
+image copy 13_brightness_up.jpg,0,0,0.004617334
+image copy 13_contrast_up.jpg,0,0,0.006355375
+image copy 13_gaussian_blur.jpg,0,0,0.0041875
+image copy 13_grayscale.jpg,0,0,0.00398875
+image copy 13_histogram_equalized.jpg,0,0,0.003817458
+image copy 13_inverted.jpg,0,0,0.003919542
+image copy 13_motion_blur.jpg,0,0,0.006114167
+image copy 13_original.jpg,0,0,0.003849333
+image copy 13_sepia.jpg,0,0,0.004765083
+image copy 14_brightness_down.jpg,0,0,0.003996084
+image copy 14_brightness_up.jpg,0,0,0.004058
+image copy 14_contrast_up.jpg,0,0,0.0061325
+image copy 14_gaussian_blur.jpg,0,0,0.00389925
+image copy 14_grayscale.jpg,0,0,0.010159958
+image copy 14_histogram_equalized.jpg,0,0,0.005261917
+image copy 14_inverted.jpg,0,0,0.003748417
+image copy 14_motion_blur.jpg,0,0,0.005430042
+image copy 14_original.jpg,0,0,0.003873375
+image copy 14_sepia.jpg,0,0,0.004135208
+image copy 2_brightness_down.jpg,0,0,0.008706625
+image copy 2_brightness_up.jpg,0,0,0.004703042
+image copy 2_contrast_up.jpg,0,0,0.004166625
+image copy 2_gaussian_blur.jpg,0,0,0.006059458
+image copy 2_grayscale.jpg,0,0,0.003927917
+image copy 2_histogram_equalized.jpg,0,0,0.006723583
+image copy 2_inverted.jpg,0,0,0.004624125
+image copy 2_motion_blur.jpg,0,0,0.004362375
+image copy 2_original.jpg,0,0,0.006695667
+image copy 2_sepia.jpg,0,0,0.004428167
+image copy 3_brightness_down.jpg,0,0,0.00676775
+image copy 3_brightness_up.jpg,0,0,0.004501209
+image copy 3_contrast_up.jpg,0,0,0.004320125
+image copy 3_gaussian_blur.jpg,0,0,0.004415417
+image copy 3_grayscale.jpg,0,0,0.004412708
+image copy 3_histogram_equalized.jpg,0,0,0.004540125
+image copy 3_inverted.jpg,0,0,0.004190209
+image copy 3_motion_blur.jpg,0,0,0.005776042
+image copy 3_original.jpg,0,0,0.004248959
+image copy 3_sepia.jpg,0,0,0.004902625
+image copy 4_brightness_down.jpg,0,0,0.003400542
+image copy 4_brightness_up.jpg,0,0,0.004023875
+image copy 4_contrast_up.jpg,0,0,0.008134
+image copy 4_gaussian_blur.jpg,0,0,0.004139709
+image copy 4_grayscale.jpg,0,0,0.005033458
+image copy 4_histogram_equalized.jpg,0,0,0.0038955
+image copy 4_inverted.jpg,0,0,0.003984541
+image copy 4_motion_blur.jpg,0,0,0.004645916
+image copy 4_original.jpg,0,0,0.003723333
+image copy 4_sepia.jpg,0,0,0.004343125
+image copy 5.png,0,0,0.004781292
+image copy 5_brightness_down.jpg,0,0,0.005497792
+image copy 5_brightness_up.jpg,0,0,0.004968917
+image copy 5_contrast_up.jpg,0,0,0.004476875
+image copy 5_gaussian_blur.jpg,0,1,0.004344375
+image copy 5_grayscale.jpg,0,0,0.004026667
+image copy 5_histogram_equalized.jpg,0,0,0.00665425
+image copy 5_inverted.jpg,0,0,0.0044705
+image copy 5_motion_blur.jpg,0,0,0.004690375
+image copy 5_original.jpg,0,0,0.00613175
+image copy 5_sepia.jpg,0,0,0.0050505
+image copy 6.png,0,1,0.003997292
+image copy 6_brightness_down.jpg,0,1,0.003774167
+image copy 6_brightness_up.jpg,0,1,0.004033708
+image copy 6_contrast_up.jpg,0,1,0.003726208
+image copy 6_gaussian_blur.jpg,0,1,0.005262083
+image copy 6_grayscale.jpg,0,1,0.005611875
+image copy 6_histogram_equalized.jpg,0,1,0.004040375
+image copy 6_inverted.jpg,0,0,0.007593333
+image copy 6_motion_blur.jpg,0,0,0.00390825
+image copy 6_original.jpg,0,1,0.007010625
+image copy 6_sepia.jpg,0,1,0.004651583
+image copy 7_brightness_down.jpg,0,1,0.005378875
+image copy 7_brightness_up.jpg,0,0,0.004213584
+image copy 7_contrast_up.jpg,0,0,0.004079667
+image copy 7_gaussian_blur.jpg,0,1,0.004080125
+image copy 7_grayscale.jpg,0,1,0.006705375
+image copy 7_histogram_equalized.jpg,0,1,0.004012916
+image copy 7_inverted.jpg,0,1,0.004002084
+image copy 7_motion_blur.jpg,0,0,0.003916208
+image copy 7_original.jpg,0,0,0.009257167
+image copy 7_sepia.jpg,0,1,0.004120208
+image copy 8_brightness_down.jpg,0,0,0.005637
+image copy 8_brightness_up.jpg,0,0,0.005479834
+image copy 8_contrast_up.jpg,0,0,0.007136375
+image copy 8_gaussian_blur.jpg,0,0,0.00612825
+image copy 8_grayscale.jpg,0,0,0.005624542
+image copy 8_histogram_equalized.jpg,0,0,0.009369167
+image copy 8_inverted.jpg,0,0,0.006353708
+image copy 8_motion_blur.jpg,0,0,0.006068375
+image copy 8_original.jpg,0,0,0.00944825
+image copy 8_sepia.jpg,0,0,0.006356667
+image copy 9_brightness_down.jpg,0,0,0.004493
+image copy 9_brightness_up.jpg,0,0,0.003980333
+image copy 9_contrast_up.jpg,0,1,0.006110292
+image copy 9_gaussian_blur.jpg,0,1,0.00608475
+image copy 9_grayscale.jpg,0,0,0.004597833
+image copy 9_histogram_equalized.jpg,0,0,0.007246916
+image copy 9_inverted.jpg,0,0,0.007137875
+image copy 9_motion_blur.jpg,0,0,0.006640166
+image copy 9_original.jpg,0,1,0.006786833
+image copy 9_sepia.jpg,0,0,0.003785375
+image copy.png,0,0,0.008200667
+image copy_brightness_down.jpg,0,0,0.009638708
+image copy_brightness_up.jpg,0,0,0.007212917
+image copy_contrast_up.jpg,0,0,0.008139166
+image copy_gaussian_blur.jpg,0,0,0.008520875
+image copy_grayscale.jpg,0,0,0.006719458
+image copy_histogram_equalized.jpg,0,0,0.008399542
+image copy_inverted.jpg,0,0,0.007489667
+image copy_motion_blur.jpg,0,0,0.006779292
+image copy_original.jpg,0,0,0.007862917
+image copy_sepia.jpg,0,0,0.007708833
+image_brightness_down.jpg,0,0,0.010485916
+image_brightness_up.jpg,0,0,0.003879708
+image_contrast_up.jpg,0,0,0.003713375
+image_gaussian_blur.jpg,0,0,0.004022208
+image_grayscale.jpg,0,0,0.004329375
+image_histogram_equalized.jpg,0,0,0.004786458
+image_inverted.jpg,0,0,0.011083125
+image_motion_blur.jpg,0,0,0.004185166
+image_original.jpg,0,0,0.00828825
+image_sepia.jpg,0,0,0.004754584
+moh.png,1,1,0.010339209
+moh1.png,1,1,0.010166125
+moh1_brightness_down.jpg,1,1,0.005747125
+moh1_brightness_up.jpg,1,1,0.009823584
+moh1_contrast_up.jpg,1,1,0.005304041
+moh1_gaussian_blur.jpg,1,1,0.006901375
+moh1_grayscale.jpg,1,1,0.012330375
+moh1_histogram_equalized.jpg,1,1,0.005395625
+moh1_inverted.jpg,1,0,0.005375833
+moh1_motion_blur.jpg,1,0,0.007792166
+moh1_original.jpg,1,1,0.006644542
+moh1_sepia.jpg,1,1,0.0059345
+moh2.png,1,1,0.005414958
+moh2_brightness_down.jpg,1,1,0.004102209
+moh2_brightness_up.jpg,1,1,0.004732
+moh2_contrast_up.jpg,1,1,0.004362
+moh2_gaussian_blur.jpg,1,1,0.0039535
+moh2_grayscale.jpg,1,0,0.004973959
+moh2_histogram_equalized.jpg,1,1,0.004765875
+moh2_inverted.jpg,1,0,0.005015167
+moh2_motion_blur.jpg,1,0,0.003690917
+moh2_original.jpg,1,1,0.004570542
+moh2_sepia.jpg,1,0,0.003974333
+moh3.png,1,1,0.004470792
+moh3_brightness_down.jpg,1,1,0.003986208
+moh3_brightness_up.jpg,1,1,0.004467208
+moh3_contrast_up.jpg,1,1,0.004244334
+moh3_gaussian_blur.jpg,1,1,0.003864667
+moh3_grayscale.jpg,1,1,0.004279083
+moh3_histogram_equalized.jpg,1,1,0.004334417
+moh3_inverted.jpg,1,1,0.004658875
+moh3_motion_blur.jpg,1,0,0.00450575
+moh3_original.jpg,1,1,0.004045125
+moh3_sepia.jpg,1,1,0.003853667
+moh4.png,1,1,0.005087083
+moh4_brightness_down.jpg,1,1,0.006766834
+moh4_brightness_up.jpg,1,1,0.004987833
+moh4_contrast_up.jpg,1,1,0.004661667
+moh4_gaussian_blur.jpg,1,1,0.003713875
+moh4_grayscale.jpg,1,1,0.004527083
+moh4_histogram_equalized.jpg,1,0,0.006149041
+moh4_inverted.jpg,1,1,0.004350667
+moh4_motion_blur.jpg,1,0,0.007049458
+moh4_original.jpg,1,1,0.004230792
+moh4_sepia.jpg,1,1,0.004232417
+moh5.png,1,1,0.004189625
+moh5_brightness_down.jpg,1,1,0.005648666
+moh5_brightness_up.jpg,1,1,0.004646459
+moh5_contrast_up.jpg,1,1,0.005591917
+moh5_gaussian_blur.jpg,1,1,0.004472292
+moh5_grayscale.jpg,1,1,0.00507475
+moh5_histogram_equalized.jpg,1,1,0.003935417
+moh5_inverted.jpg,1,0,0.003855458
+moh5_motion_blur.jpg,1,0,0.004249959
+moh5_original.jpg,1,1,0.003650084
+moh5_sepia.jpg,1,1,0.004211

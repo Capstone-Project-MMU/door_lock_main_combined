@@ -1,0 +1,120 @@
+1. Confusion Matrix
+Purpose: Summarizes the performance of the face detection model.
+
+Axes:
+
+X-axis: Predicted class (No Face / Face)
+
+Y-axis: Actual class (No Face / Face)
+
+How to read:
+
+Top-left: True Negatives (correctly predicted no face)
+
+Bottom-right: True Positives (correctly predicted face)
+
+Top-right: False Positives (predicted face, but no face in ground truth)
+
+Bottom-left: False Negatives (missed a face)
+
+2. ROC Curve
+Purpose: Evaluates the trade-off between true positive rate and false positive rate.
+
+Axes:
+
+X-axis: False Positive Rate (1 - Specificity)
+
+Y-axis: True Positive Rate (Recall)
+
+How to read:
+The closer the curve follows the left and top borders, the better. The diagonal line represents random guessing. The AUC (Area Under Curve) gives an overall performance metric (higher is better).
+
+3. Precision-Recall Curve
+Purpose: Highlights performance for imbalanced classes (e.g., fewer face images).
+
+Axes:
+
+X-axis: Recall (how many actual faces were detected)
+
+Y-axis: Precision (how many detected faces were correct)
+
+How to read:
+Curves closer to the top-right are better. Helps identify trade-offs when tuning thresholds.
+
+4. Classification Report (Heatmap)
+Purpose: Visual summary of precision, recall, F1-score, and support.
+
+Axes:
+
+X-axis: Metrics (precision, recall, etc.)
+
+Y-axis: Classes (No Face, Face)
+
+How to read:
+Each cell shows a score between 0 and 1. Higher is better. F1-score balances precision and recall.
+
+5. Ground Truth Distribution
+Purpose: Shows how many images were labeled as having a face vs not.
+
+X-axis: Label type ("No Face", "Face")
+
+Y-axis: Image count
+
+How to read:
+Helps you see if your dataset is balanced or skewed.
+
+6. Prediction Result Breakdown (Pie Chart)
+Purpose: Shows the overall prediction result breakdown.
+
+How to read:
+Segments represent the percentage of predictions as "Face" or "No Face". A balanced pie may indicate high recall; an imbalanced one may indicate bias.
+
+7. Inference Time Per Image
+Purpose: Measures how long it takes to run face detection on each image.
+
+X-axis: Image names
+
+Y-axis: Time in seconds
+
+How to read:
+Spikes may indicate high-res images or inefficiencies.
+
+8. Cumulative Inference Time
+Purpose: Tracks how total processing time builds up across the dataset.
+
+X-axis: Image index
+
+Y-axis: Cumulative time (s)
+
+How to read:
+A steady line means consistent runtime; jumps suggest performance issues on specific images.
+
+9. 3D Plot: Image Index vs Inference Time vs Prediction
+Purpose: Visualizes timing and predictions together.
+
+Axes:
+
+X: Image index (position in the dataset)
+
+Y: Inference time (seconds)
+
+Z: Prediction (0 = No Face, 1 = Face)
+
+Color: Indicates ground truth (0 = gray, 1 = green/yellow)
+
+How to read:
+Cluster of predictions near 1 with low times is ideal. Look for anomalies (e.g., long inference or wrong predictions).
+
+10. 3D ROC Surface (Threshold vs FPR vs TPR)
+Purpose: Shows how the model's performance shifts across decision thresholds.
+
+Axes:
+
+X: Threshold values
+
+Y: False Positive Rate
+
+Z: True Positive Rate
+
+How to read:
+Helps you visualize the "sweet spot" where threshold gives high TPR and low FPR.
