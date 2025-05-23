@@ -109,20 +109,18 @@ async def search_face(image: UploadFile = File(...), k: int = Form(5)):
 @app.post("/router")
 async def search_face(image: UploadFile = File(...), k: int = Form(5)):
     """Forwards search request to the search FastAPI service."""
-    router = "http://127.0.0.1:8083/recognize"
+    router = "http://127.0.0.1:8087/router"
     human = "http://127.0.0.1:8083/recognize"
-    animal = "http://127.0.0.1:8085/animal"
+    animal = "http://127.0.0.1:8088/animal_detect"
     files = {"image": (image.filename, await image.read(), image.content_type)}
-    response = requests.post(url, files=files, data=data)
+    response = requests.post(router, files=files)
     logger.debug(f"[maestro] Response from /search has been recieved")
-    return JSONResponse(content=response.json(), status_code=response.status_code)
-
-@app.post("/animal")
-async def search_face(image: UploadFile = File(...), k: int = Form(5)):
-    """Forwards search request to the search FastAPI service."""
-    url = "http://127.0.0.1:8085/search"
-    files = {"image": (image.filename, await image.read(), image.content_type)}
-    data = {"k": k}
-    response = requests.post(url, files=files, data=data)
-    logger.debug(f"[maestro] Response from /search has been recieved")
-    return JSONResponse(content=response.json(), status_code=response.status_code)
+    if human in response.json():
+        response = requests.post(human, files=files)
+        result = "human"
+        return result
+    elif animal in response.json():
+        response = requests.post(animal, files=files)
+        result = "human"
+        return result
+    return None
