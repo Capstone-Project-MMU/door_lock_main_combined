@@ -4,7 +4,7 @@ import cv2
 import os
 import picamera2 as pi
 
-url = "http://localhost:8080/detect"
+url = "http://localhost:8080/router"
 
 cam = pi.Picamera2()
 config = cam.create_preview_configuration(main={"format" : "RGB888", "size" : (640, 840)})

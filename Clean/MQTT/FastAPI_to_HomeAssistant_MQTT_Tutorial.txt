@@ -1,0 +1,157 @@
+
+Full Tutorial: Sending a Word from Raspberry Pi 5 to Home Assistant using FastAPI and MQTT
+
+Overview:
+This guide explains how to send a word from a FastAPI application running on a Raspberry Pi 5 to Home Assistant using MQTT. The word will be displayed in a Home Assistant card as an entity in a room. No prior experience is required.
+
+Requirements:
+- Raspberry Pi 5 with Python 3 installed
+- Home Assistant accessible via http://homeassistant.local:8123
+- MQTT broker (we will use Mosquitto)
+- Access to Home Assistant’s UI
+- Basic familiarity with command line (copy/paste is enough)
+
+Step 1: Install MQTT Broker on Raspberry Pi 5
+Open a terminal on your Raspberry Pi and run:
+
+    sudo apt update
+    sudo apt install mosquitto mosquitto-clients
+
+Start and enable Mosquitto:
+
+    sudo systemctl enable mosquitto
+    sudo systemctl start mosquitto
+
+(Optional) Create an MQTT username and password:
+
+    sudo mosquitto_passwd -c /etc/mosquitto/passwd myuser
+
+Edit the Mosquitto config file:
+
+    sudo nano /etc/mosquitto/mosquitto.conf
+
+Add the following lines to the file:
+
+    allow_anonymous false
+    password_file /etc/mosquitto/passwd
+    listener 1883
+
+Then restart the service:
+
+    sudo systemctl restart mosquitto
+
+Step 2: Find Your Raspberry Pi IP Address
+Run the following command on your Raspberry Pi:
+
+    hostname -I
+
+Copy the first IP address that appears (e.g., 192.168.1.42). You will use this as YOUR_MQTT_BROKER_IP and later to call your FastAPI service.
+
+Step 3: Set Up FastAPI Application
+
+Install FastAPI, Uvicorn, and MQTT library:
+
+    pip install fastapi uvicorn paho-mqtt
+
+Create a file called main.py:
+
+```python
+from fastapi import FastAPI
+from pydantic import BaseModel
+import paho.mqtt.publish as publish
+
+app = FastAPI()
+
+MQTT_BROKER = "YOUR_MQTT_BROKER_IP"
+MQTT_TOPIC = "home/text_message"
+MQTT_USER = "myuser"
+MQTT_PASS = "mypassword"
+
+class Message(BaseModel):
+    word: str
+
+@app.post("/send-word")
+def send_word(msg: Message):
+    publish.single(
+        topic=MQTT_TOPIC,
+        payload=msg.word,
+        hostname=MQTT_BROKER,
+        auth={'username': MQTT_USER, 'password': MQTT_PASS}
+    )
+    return {"status": "sent", "word": msg.word}
+```
+
+Replace "YOUR_MQTT_BROKER_IP" with your Raspberry Pi IP from Step 2.
+
+Run the FastAPI app:
+
+    uvicorn main:app --host 0.0.0.0 --port 8000
+
+Step 4: Configure MQTT Integration in Home Assistant
+
+1. Open Home Assistant in your browser: http://homeassistant.local:8123
+2. Go to Settings → Devices & Services → Add Integration → MQTT
+3. Enter the Raspberry Pi IP as the broker
+4. Use the MQTT username and password you set earlier (myuser and mypassword)
+5. Click Finish and ensure MQTT is connected
+
+Step 5: Add MQTT Sensor in Home Assistant
+
+Open Home Assistant → Settings → Devices & Services → Integrations → MQTT → Configure
+
+Then edit your configuration.yaml (via File Editor Add-on or Studio Code Server in HA):
+
+```yaml
+mqtt:
+  sensor:
+    - name: "Room Message"
+      state_topic: "home/text_message"
+      unique_id: "room_message_sensor"
+      value_template: "{{ value }}"
+```
+
+Restart Home Assistant or reload YAML configurations (Developer Tools → YAML → Reload MQTT).
+
+Step 6: Add the Entity to a Room
+
+1. Go to Settings → Devices & Services → Entities
+2. Search for “Room Message”
+3. Click it and assign it to a room
+
+Step 7: Display in Dashboard
+
+In Home Assistant UI:
+
+1. Click "Edit Dashboard"
+2. Add a new card (click +)
+3. Choose either "Entities" or "Markdown" card
+
+Example for Entities card:
+
+```yaml
+type: entities
+title: Room Info
+entities:
+  - entity: sensor.room_message
+```
+
+Example for Markdown card:
+
+```yaml
+type: markdown
+content: >
+  ## Message in Room
+  {{ states('sensor.room_message') }}
+```
+
+Step 8: Test Sending a Word
+
+From your computer or using Postman, send this request:
+
+    curl -X POST "http://YOUR_PI_IP:8000/send-word" -H "Content-Type: application/json" -d '{"word": "Hello, world!"}'
+
+Replace YOUR_PI_IP with your Raspberry Pi's IP address.
+
+You should now see the message "Hello, world!" appear in the Home Assistant card in the assigned room.
+
+Done.
