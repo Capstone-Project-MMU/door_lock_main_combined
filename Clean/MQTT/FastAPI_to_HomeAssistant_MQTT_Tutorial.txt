@@ -92,9 +92,12 @@ Step 4: Configure MQTT Integration in Home Assistant
 
 1. Open Home Assistant in your browser: http://homeassistant.local:8123
 2. Go to Settings → Devices & Services → Add Integration → MQTT
-3. Enter the Raspberry Pi IP as the broker
-4. Use the MQTT username and password you set earlier (myuser and mypassword)
-5. Click Finish and ensure MQTT is connected
+3. Go to reconfigure and enter the following details
+    a. broker: YOUR_MQTT_BROKER_IP
+    b. port: 1883 #this has nothing to do with fastapi port
+    c. usernamr: myuser
+    d. password: mypassword
+4. Click Finish and ensure MQTT is connected
 
 Step 5: Add MQTT Sensor in Home Assistant
 
