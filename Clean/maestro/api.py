@@ -15,7 +15,7 @@ import os
 """"
 uvicorn api:app --host 0.0.0.0 --port 8080 --log-config log.ini
 """
-
+YOUR_PI_IP = "192.168.100.212"
 
 def logger_creation():
     log_dir = "../logs"
@@ -58,6 +58,7 @@ async def detect(file: UploadFile = File(...)):
 
     print(response.json())
     logger.debug(f"[maestro] Response from /detect has been recieved")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Detection: Complete"})
     return response.json()
 
 @app.post("/recognize")
@@ -69,6 +70,7 @@ async def recognize(file: UploadFile = File(...)):
     time.sleep(2)
     print(response.json())
     logger.debug(f"[maestro] Response from /recognize has been recieved")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Recognition: Complete"})
     return {"match": True}
 
 
@@ -80,6 +82,7 @@ async def add_filters(image: UploadFile = File(...), person_name: str = Form(...
     data = {"person_name": person_name}
     response = requests.post(url, files=files, data=data)
     logger.debug(f"[maestro] Response from /add_filters has been recieved")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Add-Filters: Complete"})
     return JSONResponse(content=response.json(), status_code=response.status_code)
 
 @app.post("/store")
@@ -94,6 +97,7 @@ async def store_face(
     data = {"person_name": person_name, "apply_filter": apply_filter}
     response = requests.post(url, files=files, data=data)
     logger.debug(f"[maestro] Response from /store has been recieved")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Store: Complete"})
     return JSONResponse(content=response.json(), status_code=response.status_code)
 
 @app.post("/search")
@@ -104,4 +108,5 @@ async def search_face(image: UploadFile = File(...), k: int = Form(5)):
     data = {"k": k}
     response = requests.post(url, files=files, data=data)
     logger.debug(f"[maestro] Response from /search has been recieved")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Search: Complete"})
     return JSONResponse(content=response.json(), status_code=response.status_code)

@@ -6,6 +6,8 @@ from PIL import Image
 import io
 import logging
 import os
+import requests
+
 """
 uvicorn api:app --host 0.0.0.0 --port 8081
 docker build -t motion_detect .
@@ -14,7 +16,7 @@ docker run \
     -p 8081:8081 \
     motion_detect
 """
-
+YOUR_PI_IP = "192.168.100.212"
 
 def logger_creation():
     log_dir = "logs"
@@ -50,4 +52,5 @@ async def compare_images(file1: UploadFile = File(...), file2: UploadFile = File
     is_different = calculate_difference(image1, image2)
     #turns out np.bool is not the same as python's normal bool so JSON coudln't deal with it
     logger.debug(f"[motion_detection] is_different : {bool(is_different)}")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Motion-Detect: Complete"})
     return JSONResponse(content={"is_different": bool(is_different)})

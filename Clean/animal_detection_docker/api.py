@@ -4,6 +4,7 @@ import numpy as np
 import logging
 import os
 from test import load_and_preprocess_image
+import requests
 
 """
 uvicorn api:app --host 0.0.0.0 --port 8088
@@ -15,7 +16,7 @@ docker run \
     animal_detect
 """
 
-
+YOUR_PI_IP = "192.168.100.212"
 MODEL_PATH = "current/mobilenetv2_animal.h5"
 IMG_PATH = "current/image2.png"
 IMG_SIZE = (160, 160)
@@ -50,4 +51,5 @@ def animal_detect():
     predicted_class = np.argmax(predictions[0])
     confidence = np.max(predictions[0])
     logger.debug(f"[animal] Prediction: {CLASS_NAMES[predicted_class]}, Confidence: {confidence:.2f}")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Animal-Detect: Complete"})
     return f"Prediction: {CLASS_NAMES[predicted_class]}, Confidence: {confidence:.2f})"
