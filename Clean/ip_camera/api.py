@@ -3,6 +3,9 @@ from fastapi.responses import StreamingResponse
 import cv2
 import logging 
 import os
+import picamera2 as pi
+import time
+import requests
 
 from ip_camera import generate_images
 
@@ -28,13 +31,48 @@ def logger_creation():
     
     return docker_logger
 
+def run():
+	try: 
+		while True: 
+			images = []
+			
+			for i in range(3):
+				frame = cam.capture_array()
+				
+				filename = f"image_{i}.jpg"
+				cv2.imwrite(filename, frame)
+				images.append(filename)
+				
+				time.sleep(0.25)
+				
+			try: 
+				files = [("file", (img, open(img, "rb"), "image/jpeg")) for img in images]
+				response = requests.post(url, files=files)
+				print(f"Server response: {response.status_code} - {response.text}")
+			except Exception as e: 
+				print(f"Error sending images: {e}")
+			finally: 
+				for img in images: 
+					os.remove(img)
 
-camera = cv2.VideoCapture(0)
+	except KeyboardInterrupt: 
+		print("Interrupted by user. Exiting...")
+		
+	finally: 
+		cam.stop()
+		cv2.destroyAllWindows()
+
+url = "http://localhost:8080/router"
+
+cam = pi.Picamera2()
+config = cam.create_preview_configuration(main={"format" : "RGB888", "size" : (640, 840)})
+cam.configure(config)
+cam.start()
 app = FastAPI()
 logger = logger_creation()
         
+run()
 @app.get("/camera")
 def video_feed():
     return StreamingResponse(generate_images(), 
                             media_type="multipart/x-mixed-replace; boundary=frame")
-    
