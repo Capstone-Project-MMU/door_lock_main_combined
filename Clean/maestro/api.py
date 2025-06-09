@@ -15,7 +15,7 @@ import os
 """"
 uvicorn api:app --host 0.0.0.0 --port 8080 --log-config log.ini
 """
-YOUR_PI_IP = "192.168.100.212"
+YOUR_PI_IP = "192.168.88.111"
 
 def logger_creation():
     log_dir = "../logs"

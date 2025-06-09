@@ -2,9 +2,12 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import paho.mqtt.publish as publish
 
+#uvicorn api:app --host 0.0.0.0 --port 8000
+
 app = FastAPI()
 
-MQTT_BROKER = "192.168.100.212"
+
+MQTT_BROKER = "192.168.88.111"
 MQTT_TOPIC = "home/text_message"
 MQTT_USER = "myuser"
 MQTT_PASS = "mypassword"

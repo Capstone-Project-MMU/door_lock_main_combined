@@ -1,0 +1,993 @@
+2025-06-09 03:54:15,644 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-06-09 03:54:15,644 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 41 32
+2025-06-09 03:54:15,644 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 85 6
+2025-06-09 03:54:15,644 - PIL.PngImagePlugin - DEBUG - b'bKGD' 85 6 (unknown)
+2025-06-09 03:54:15,645 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 103 9
+2025-06-09 03:54:15,645 - PIL.PngImagePlugin - DEBUG - STREAM b'zTXt' 124 1093
+2025-06-09 03:54:15,645 - PIL.PngImagePlugin - DEBUG - STREAM b'orNT' 1229 1
+2025-06-09 03:54:15,645 - PIL.PngImagePlugin - DEBUG - b'orNT' 1229 1 (unknown)
+2025-06-09 03:54:15,645 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1242 32768
+2025-06-09 03:54:15,820 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 6471349 2430
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473791 37
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473840 37
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473889 40
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473941 30
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473983 31
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474026 21
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474059 21
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474092 33
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474137 42
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474191 41
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474244 19
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474275 21
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474308 26
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474346 19
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474377 22
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474411 23
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474446 13
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474471 18
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474501 30
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474543 29
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474584 19
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474615 64
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474691 81
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474784 15
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474811 24
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474847 19
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474878 24
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474914 22
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474948 31
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474991 30
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475033 31
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475076 25
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475113 25
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475150 16
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475178 20
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475210 35
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475257 20
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475289 39
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475340 28
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475380 27
+2025-06-09 03:54:15,821 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475419 19
+2025-06-09 03:54:15,822 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475450 41
+2025-06-09 03:54:15,822 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475503 21
+2025-06-09 03:54:15,822 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475536 34
+2025-06-09 03:54:15,822 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475582 22
+2025-06-09 03:54:15,822 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475616 34
+2025-06-09 07:08:42,765 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:08:42,765 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:08:42,765 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:08:42,765 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:08:42,766 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:08:42,766 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:08:42,766 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:08:42,766 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:08:42,766 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:126821]
+2025-06-09 07:08:42,767 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:6575]
+2025-06-09 07:08:42,767 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:08:42,767 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:08:43,250 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:08:46,838 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:08:46,839 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:125271]
+2025-06-09 07:08:46,839 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:08:46,839 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:08:47,331 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:127094]
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:08:54,561 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:08:55,043 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:22:26,765 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:126821]
+2025-06-09 07:22:26,766 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:11391]
+2025-06-09 07:22:26,766 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:22:26,766 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:22:27,245 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:22:27,784 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:22:27,784 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:109632]
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:22:27,785 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:22:28,252 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:126821]
+2025-06-09 07:23:35,768 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:3548]
+2025-06-09 07:23:35,769 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:23:35,769 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:23:36,233 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:23:42,714 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:23:42,714 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:126821]
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:4014]
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:23:42,715 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:23:43,179 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:48,178 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:23:48,179 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:120059]
+2025-06-09 07:23:48,179 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:23:48,179 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:23:48,652 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:23:53,572 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:23:53,572 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:23:53,572 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:23:53,572 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:53,572 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:23:53,572 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:23:53,572 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:53,573 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:23:53,573 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:112303]
+2025-06-09 07:23:53,573 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:23:53,573 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:23:54,038 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:23:56,190 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:23:56,190 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:107434]
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:23:56,191 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:23:56,667 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:23:57,218 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:23:57,218 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:23:57,218 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:109218]
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:23:57,219 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:23:57,699 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:23:58,789 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:115498]
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:23:58,790 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:23:59,265 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:108125]
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:24:02,514 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:24:02,990 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:24:10,614 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:112770]
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:24:10,615 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:24:11,103 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:24:48,455 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:117675]
+2025-06-09 07:24:48,456 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:24:48,456 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:24:48,926 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:25:04,707 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:25:04,707 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:25:04,707 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:25:04,707 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:04,707 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:25:04,707 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:25:04,707 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:04,708 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:25:04,708 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:110156]
+2025-06-09 07:25:04,708 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:25:04,708 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:25:05,176 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:111467]
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:25:11,814 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:25:12,330 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:25:16,194 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:25:16,196 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:25:16,196 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:25:16,196 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:16,197 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:25:16,197 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:25:16,197 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:16,197 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:25:16,197 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:109782]
+2025-06-09 07:25:16,197 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:25:16,197 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:25:16,679 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:25:30,142 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:25:30,142 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:25:30,142 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:25:30,142 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:30,142 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:25:30,142 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:25:30,143 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:30,143 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:25:30,143 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:113035]
+2025-06-09 07:25:30,143 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:25:30,143 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:25:30,661 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:113680]
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:25:36,317 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:25:36,801 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:25:54,713 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:126589]
+2025-06-09 07:25:54,714 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:25:54,714 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:25:55,204 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:25:55,799 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:25:55,800 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:113494]
+2025-06-09 07:25:55,800 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:25:55,800 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:25:56,274 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:108761]
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:04,822 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:05,304 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:19,965 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:19,966 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:112684]
+2025-06-09 07:26:19,966 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:19,966 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:20,444 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:20,998 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:20,999 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:109924]
+2025-06-09 07:26:20,999 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:20,999 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:21,476 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:22,054 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:22,055 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:118207]
+2025-06-09 07:26:22,055 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:22,055 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:22,528 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:113182]
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:24,793 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:25,310 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:112243]
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:26,443 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:26,929 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:29,181 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:29,194 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:29,194 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:29,194 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:29,194 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:29,194 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:29,195 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:29,195 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:29,195 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:112616]
+2025-06-09 07:26:29,195 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:29,195 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:29,672 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:115718]
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:30,722 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:31,196 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:115718]
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:32,783 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:33,266 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:97964]
+2025-06-09 07:26:59,449 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:26:59,450 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:26:59,926 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:27:02,135 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:101177]
+2025-06-09 07:27:02,136 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:27:02,136 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:27:02,598 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:99395]
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:27:05,932 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:27:06,409 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:103420]
+2025-06-09 07:27:06,982 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:27:06,983 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:27:07,483 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:27:08,048 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:27:08,048 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:27:08,048 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:27:08,048 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:08,048 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:27:08,048 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:27:08,048 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:27:08,049 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:27:08,049 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:96127]
+2025-06-09 07:27:08,049 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:27:08,049 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:27:08,540 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:30:28,794 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:30:28,814 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:30:28,814 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:30:28,814 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:28,814 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:30:28,814 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:30:28,814 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:28,814 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:30:28,835 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:109875]
+2025-06-09 07:30:28,840 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:30:28,841 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:30:29,550 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:110664]
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:30:36,728 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:30:37,274 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:40,205 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:30:40,206 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:123379]
+2025-06-09 07:30:40,206 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:30:40,206 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:30:40,699 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:110122]
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:30:41,702 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:30:42,212 - root - DEBUG - [recognition] match : False 
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:105442]
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 07:30:43,329 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 07:30:46,044 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:02:51,541 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:115329]
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:02:51,542 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:02:52,047 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:103308]
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:02:52,869 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:02:53,342 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:121466]
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:02:54,208 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:02:54,662 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:02:55,563 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:02:55,563 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:02:55,563 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:02:55,563 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:55,563 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:02:55,565 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:02:55,565 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:02:55,566 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:02:55,566 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:102035]
+2025-06-09 08:02:55,566 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:02:55,566 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:02:56,029 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:33,015 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:03:33,016 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:116402]
+2025-06-09 08:03:33,016 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:03:33,016 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:03:33,469 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:03:34,384 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:03:34,384 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:03:34,384 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:101080]
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:03:34,385 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:03:34,850 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:03:35,844 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:03:35,844 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:103042]
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:03:35,845 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:03:36,343 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:101251]
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:03:43,489 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:03:43,953 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:08,495 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:08,498 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:08,498 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:08,498 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:08,498 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:08,499 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:08,499 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:08,499 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:08,499 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:104026]
+2025-06-09 08:04:08,499 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:08,499 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:08,990 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:106584]
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:18,291 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:18,750 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:34,304 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:34,304 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:34,304 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:34,304 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:34,305 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:34,305 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:34,305 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:34,305 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:34,305 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:98534]
+2025-06-09 08:04:34,305 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:34,305 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:34,765 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:97925]
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:38,763 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:39,229 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:104578]
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:41,017 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:41,482 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:98600]
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:42,646 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:43,124 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:44,301 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:104302]
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:44,302 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:44,761 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:105225]
+2025-06-09 08:04:46,503 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:46,504 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:46,963 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:47,516 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:107042]
+2025-06-09 08:04:47,517 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:47,517 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:48,009 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:95460]
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:04:49,651 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:04:50,117 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:29:29,642 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 41 32
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 85 6
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - b'bKGD' 85 6 (unknown)
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 103 9
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - STREAM b'zTXt' 124 1093
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - STREAM b'orNT' 1229 1
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - b'orNT' 1229 1 (unknown)
+2025-06-09 08:29:29,646 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1242 32768
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 6471349 2430
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473791 37
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473840 37
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473889 40
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473941 30
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6473983 31
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474026 21
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474059 21
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474092 33
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474137 42
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474191 41
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474244 19
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474275 21
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474308 26
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474346 19
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474377 22
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474411 23
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474446 13
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474471 18
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474501 30
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474543 29
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474584 19
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474615 64
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474691 81
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474784 15
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474811 24
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474847 19
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474878 24
+2025-06-09 08:29:29,843 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474914 22
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474948 31
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6474991 30
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475033 31
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475076 25
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475113 25
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475150 16
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475178 20
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475210 35
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475257 20
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475289 39
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475340 28
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475380 27
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475419 19
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475450 41
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475503 21
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475536 34
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475582 22
+2025-06-09 08:29:29,844 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 6475616 34
+2025-06-09 08:32:37,082 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:37,083 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:37,083 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:37,083 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:37,083 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:37,084 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:37,084 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:37,084 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:37,084 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:119643]
+2025-06-09 08:32:37,084 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:37,084 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:37,567 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:38,097 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:38,097 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:38,097 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:38,097 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:38,098 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:38,098 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:38,098 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:38,098 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:38,098 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:94616]
+2025-06-09 08:32:38,098 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:38,098 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:38,554 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:39,084 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:39,084 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87419]
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:39,085 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:39,537 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:49,492 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:109230]
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:49,493 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:49,978 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:51,612 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:51,613 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:122124]
+2025-06-09 08:32:51,613 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:51,613 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:52,081 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:53,162 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:98771]
+2025-06-09 08:32:53,165 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:53,165 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:53,647 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:54,188 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:54,188 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:97941]
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:54,189 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:54,653 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:55,733 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:55,734 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:95469]
+2025-06-09 08:32:55,734 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:55,734 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:56,203 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:99142]
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:32:56,747 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:32:57,217 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:109665]
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:33:27,724 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:33:28,206 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:33:28,735 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:33:28,735 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:33:28,735 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:33:28,735 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:28,735 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:33:28,736 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:33:28,736 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:28,736 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:33:28,736 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:103710]
+2025-06-09 08:33:28,736 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:33:28,736 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:33:29,194 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:33:53,518 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:126821]
+2025-06-09 08:33:53,519 - python_multipart.multipart - DEBUG - Calling on_part_data with data[0:7029]
+2025-06-09 08:33:53,519 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:33:53,519 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:33:53,979 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:33:57,726 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:33:57,727 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:103180]
+2025-06-09 08:33:57,727 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:33:57,727 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:33:58,217 - root - DEBUG - [recognition] match : False 
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:120269]
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-09 08:34:52,925 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-09 08:34:53,397 - root - DEBUG - [recognition] match : False 
