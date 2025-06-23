@@ -4,12 +4,12 @@ import paho.mqtt.publish as publish
 
 #uvicorn api:app --host 0.0.0.0 --port 8000
 
-app = FastAPI()
+app = FastAPI() 
 
 
-MQTT_BROKER = "192.168.88.111"
+MQTT_BROKER = "192.168.10.111"
 MQTT_TOPIC = "home/text_message"
-MQTT_USER = "myuser"
+MQTT_USER = "myuser"    
 MQTT_PASS = "mypassword"
 
 class Message(BaseModel):

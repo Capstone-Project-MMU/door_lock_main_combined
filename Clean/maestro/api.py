@@ -14,8 +14,8 @@ import os
 """"
 uvicorn api:app --host 0.0.0.0 --port 8080 --log-config log.ini
 """
-YOUR_PI_IP = "192.168.88.111"
-
+YOUR_PI_IP = "192.168.10.111"
+                
 app = FastAPI()
 
 @app.post("/detect")
@@ -85,3 +85,6 @@ async def search_face(image: UploadFile = File(...), k: int = Form(5)):
     response = requests.post(url, files=files, data=data)
     requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Search: Complete"})
     return JSONResponse(content=response.json(), status_code=response.status_code)
+    
+
+
