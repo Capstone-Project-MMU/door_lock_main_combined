@@ -17,25 +17,8 @@ docker run \
 """
 
 
-def logger_creation():
-    log_dir = "logs"
-    
-    docker_logger = logging.getLogger()
-    docker_logger.setLevel(logging.DEBUG)
-    os.makedirs(log_dir, exist_ok=True)
-    log_dir = os.path.join(log_dir, f"detection.log")
-    file_handler = logging.FileHandler(log_dir)
-    file_handler.setLevel(logging.DEBUG)
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    file_handler.setFormatter(formatter)
-
-    if not docker_logger.handlers: 
-        docker_logger.addHandler(file_handler)
-    
-    return docker_logger
-
 app = FastAPI()
-logger = logger_creation()
+#logger = logger_creation()
 
 @app.post("/detect")
 async def detect(file: UploadFile = File(...)):
@@ -44,7 +27,7 @@ async def detect(file: UploadFile = File(...)):
     nparr = np.frombuffer(contents, np.uint8)
     frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
     faces = detect_faces(frame)
-    logger.debug(f"[detection] Faces Detected: {len(faces)}")
+    #logger.debug(f"[detection] Faces Detected: {len(faces)}")
     return {"faces_detected": len(faces)}
 
 

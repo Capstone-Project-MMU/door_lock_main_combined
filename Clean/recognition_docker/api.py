@@ -35,7 +35,7 @@ def logger_creation():
 
 
 app = FastAPI()
-logger = logger_creation()
+#logger = logger_creation()
 
 # Load reference image (Moh)
 reference_image = face_recognition.load_image_file("moh.png")
@@ -55,7 +55,7 @@ async def recognize(file: UploadFile = File(...)):
 
     # x, y, width, height, face = faces[0]
     is_moh = bool(recognize_face(frame, reference_encoding))  # Convert numpy.bool_ to Python bool
-    logger.debug(f"[recognition] match : {is_moh} ")
+    #logger.debug(f"[recognition] match : {is_moh} ")
     return {"match": is_moh}
 
 

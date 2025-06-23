@@ -28498,3 +28498,637 @@
 2025-06-09 08:35:39,905 - root - DEBUG - [maestro] Response from /detect has been recieved
 2025-06-09 08:35:39,906 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.88.111:8000
 2025-06-09 08:35:39,909 - urllib3.connectionpool - DEBUG - http://192.168.88.111:8000 "POST /send-word HTTP/1.1" 200 46
+2025-06-23 01:24:33,976 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-06-23 01:24:59,347 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-06-23 15:09:54,345 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87184]
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:54,346 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:54,352 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:54,428 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:54,933 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:54,934 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:88423]
+2025-06-23 15:09:54,934 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:54,934 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:54,935 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:54,952 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:55,457 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:55,457 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:55,457 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:55,457 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:55,457 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:55,457 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:55,457 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:55,458 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:55,458 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87844]
+2025-06-23 15:09:55,458 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:55,458 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:55,459 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:55,476 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:88909]
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:55,983 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:55,985 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:56,002 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87994]
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:56,508 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:56,510 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:56,526 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87226]
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:57,030 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:57,031 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:57,048 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:88079]
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:57,552 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:57,554 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:57,570 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87550]
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:58,075 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:58,077 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:58,094 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87434]
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:58,598 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:58,599 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:58,616 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87395]
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:59,121 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:59,122 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:59,139 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:09:59,643 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87942]
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:09:59,644 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:09:59,645 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:09:59,668 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86981]
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:00,173 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:00,174 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:00,196 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:00,702 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87162]
+2025-06-23 15:10:00,703 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:00,703 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:00,704 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:00,725 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:01,229 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:01,229 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:01,229 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:01,229 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:01,229 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:01,229 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:01,229 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:01,230 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:01,230 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:12421]
+2025-06-23 15:10:01,230 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:01,230 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:01,231 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:01,251 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87421]
+2025-06-23 15:10:01,757 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:01,758 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:01,759 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:01,781 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87479]
+2025-06-23 15:10:02,286 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:02,287 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:02,288 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:02,310 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87223]
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:02,816 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:02,818 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:02,839 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:03,345 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:03,346 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87515]
+2025-06-23 15:10:03,346 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:03,346 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:03,347 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:03,369 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87757]
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:03,874 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:03,875 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:03,899 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:04,403 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:04,404 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87830]
+2025-06-23 15:10:04,404 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:04,404 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:04,405 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:04,422 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86816]
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:04,927 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:04,929 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:04,944 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87609]
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:05,448 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:05,449 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:05,467 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87110]
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:05,972 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:05,973 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:05,989 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:06,493 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87177]
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:06,494 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:06,495 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:06,510 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:07,014 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:07,015 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87325]
+2025-06-23 15:10:07,015 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:07,015 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:07,016 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:07,031 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87671]
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:07,535 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:07,537 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:07,552 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:08,056 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87123]
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:08,057 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:08,058 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:08,075 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:08,580 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:08,580 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87115]
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:08,581 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:08,582 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:08,603 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87117]
+2025-06-23 15:10:09,108 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:09,109 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:09,110 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:09,130 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86849]
+2025-06-23 15:10:09,635 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:09,636 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:09,637 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:09,657 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:10,162 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:10,163 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86930]
+2025-06-23 15:10:10,163 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:10,163 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:10,164 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:10,185 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:10,690 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:10,690 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:12421]
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:10,691 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:10,692 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:10,701 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:11,206 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87028]
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:11,207 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:11,209 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:11,231 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87594]
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:11,736 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:11,738 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:11,761 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87148]
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:12,266 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:12,268 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:12,288 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:12,792 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:12,793 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87128]
+2025-06-23 15:10:12,793 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:12,793 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:12,794 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:13,298 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:13,298 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:13,298 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86932]
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:13,299 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:13,300 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87229]
+2025-06-23 15:10:13,805 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:13,806 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:13,807 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:14,311 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:14,312 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87686]
+2025-06-23 15:10:14,312 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:14,312 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:14,313 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:14,817 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:14,818 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87297]
+2025-06-23 15:10:14,818 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:14,818 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:14,819 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87198]
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:10:15,323 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:10:15,324 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87513]
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:11:24,539 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:11:24,543 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:11:24,562 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:11:25,069 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:11:25,069 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:11:25,069 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:11:25,069 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:25,069 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:11:25,070 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:11:25,070 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:25,070 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:11:25,070 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86647]
+2025-06-23 15:11:25,070 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:11:25,070 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:11:25,071 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:11:25,087 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:11:25,591 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:11:25,591 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:11:25,591 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:11:25,591 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:25,591 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:11:25,591 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:11:25,591 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:25,592 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:11:25,592 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86970]
+2025-06-23 15:11:25,592 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:11:25,592 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:11:25,593 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:11:25,609 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:11:26,116 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87068]
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:11:26,117 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:11:26,119 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:11:26,142 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 500 21
+2025-06-23 15:12:51,322 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:87328]
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:12:51,323 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:12:51,333 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:12:51,352 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 200 20
+2025-06-23 15:12:51,353 - root - DEBUG - [maestro] Response from /detect has been recieved
+2025-06-23 15:12:51,354 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.88.111:8000
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:86419]
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:15:05,488 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:15:05,490 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:15:05,509 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 200 20
+2025-06-23 15:15:05,510 - root - DEBUG - [maestro] Response from /detect has been recieved
+2025-06-23 15:15:05,511 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.88.111:8000
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_header_field with data[36:55]
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_header_value with data[57:103]
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_header_field with data[105:117]
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_header_value with data[119:129]
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_part_data with data[133:84771]
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2025-06-23 15:28:31,385 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-06-23 15:28:31,389 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8082
+2025-06-23 15:28:31,411 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8082 "POST /detect HTTP/1.1" 200 20
+2025-06-23 15:28:31,411 - root - DEBUG - [maestro] Response from /detect has been recieved
+2025-06-23 15:28:31,412 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.88.111:8000

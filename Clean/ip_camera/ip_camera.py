@@ -2,7 +2,7 @@ import cv2
 import picamera2 as pi
 import os
 
-cam = pi.Picamera2()
+cam = pi.Picamera2(camera_num=0)
 config = cam.create_preview_configuration(main={"format" : "RGB888", "size" : (640, 840)})
 cam.configure(config)
 cam.start()
@@ -24,6 +24,7 @@ def generate_images():
         frame = buffer.tobytes()
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+
 
 
 

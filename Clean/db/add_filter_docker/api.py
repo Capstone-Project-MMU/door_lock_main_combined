@@ -35,11 +35,11 @@ def logger_creation():
 
 app = FastAPI()
 
-logger = logger_creation()
+#logger = logger_creation()
 
 
-UPLOAD_DIR = "/uploads"
-FILTERED_DIR = "/images_with_filters"
+UPLOAD_DIR = "../uploads"
+FILTERED_DIR = "../images_with_filters"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(FILTERED_DIR, exist_ok=True)
 

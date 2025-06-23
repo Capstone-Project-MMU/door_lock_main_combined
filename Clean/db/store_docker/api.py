@@ -42,10 +42,10 @@ def logger_creation():
     return docker_logger
 
 app = FastAPI()
-logger = logger_creation()
+# logger = logger_creation()
 
-UPLOAD_DIR = "/uploads" # needed to be fixed for mounting in dockers
-FILTERED_DIR = "/images_with_filters"
+UPLOAD_DIR = "../uploads" # needed to be fixed for mounting in dockers
+FILTERED_DIR = "../images_with_filters"
 ADD_FILTER_URL = "http://127.0.0.1:8083/add-filters"
 SHUTDOWN_URL = "http://127.0.0.1:8083/shutdown"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
