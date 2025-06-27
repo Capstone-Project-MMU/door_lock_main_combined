@@ -10,17 +10,22 @@ from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image, UnidentifiedImageError
+from keras.models import load_model
 
 
 # Configuration
 IMG_SIZE = (160, 160)
 BATCH_SIZE = 32
-EPOCHS = 3
+EPOCHS = 100
 
 # Directories
-train_dir = "/Volumes/main/Capstone/Clean/models_training/mobilenetv2_finetune_animal/dataset/train"
-val_dir = "/Volumes/main/Capstone/Clean/models_training/mobilenetv2_finetune_animal/dataset/val"
-balanced_train_dir = "balanced_data/train"
+# train_dir = "/Volumes/main/Capstone/Clean/models_training/mobilenetv2_finetune_animal/dataset/train"
+# val_dir = "/Volumes/main/Capstone/Clean/models_training/mobilenetv2_finetune_animal/dataset/val"
+# balanced_train_dir = "balanced_data/train"
+
+train_dir = "/home/ahmed/animal_train"
+val_dir = "/home/ahmed/animal_train"
+balanced_train_dir = train_dir
 os.makedirs(balanced_train_dir, exist_ok=True)
 
 # Remove Non-Image Files
@@ -58,8 +63,8 @@ def remove_non_image_files(root_dir):
 
 
 # Clean source train/val directories first
-for directory in [train_dir, val_dir]:
-    remove_non_image_files(directory)
+# for directory in [train_dir, val_dir]:
+#     remove_non_image_files(directory)
 
 # Balance Training Data
 def balance_dataset(original_path, target_path):
@@ -92,24 +97,39 @@ def balance_dataset(original_path, target_path):
     print(f"Balanced data copied to '{target_path}'")
 
 # Balance the dataset
-balance_dataset(train_dir, balanced_train_dir)
+# balance_dataset(train_dir, balanced_train_dir)
 
 # Clean the balanced directory after copying
-remove_non_image_files(balanced_train_dir)
+# remove_non_image_files(balanced_train_dir)
 
 # Load Datasets
+# train_ds_raw = image_dataset_from_directory(
+#     balanced_train_dir,
+#     image_size=IMG_SIZE,
+#     batch_size=BATCH_SIZE,
+#     label_mode='categorical'
+# )
+
+# val_ds_raw = image_dataset_from_directory(
+#     val_dir,
+#     image_size=IMG_SIZE,
+#     batch_size=BATCH_SIZE,
+#     label_mode='categorical',
+#     shuffle=False
+# )
+
 train_ds_raw = image_dataset_from_directory(
     balanced_train_dir,
     image_size=IMG_SIZE,
     batch_size=BATCH_SIZE,
-    label_mode='categorical'
+    label_mode='int'
 )
 
 val_ds_raw = image_dataset_from_directory(
     val_dir,
     image_size=IMG_SIZE,
     batch_size=BATCH_SIZE,
-    label_mode='categorical',
+    label_mode='int',
     shuffle=False
 )
 
@@ -123,21 +143,31 @@ val_ds = val_ds_raw.cache().prefetch(buffer_size=AUTOTUNE)
 
 # Build Model
 base_model = MobileNetV2(include_top=False, weights='imagenet', pooling='avg', input_shape=IMG_SIZE + (3,))
-base_model.trainable = False
+base_model.trainable = True
 
 model = models.Sequential([
     layers.Input(shape=IMG_SIZE + (3,)),
     layers.Rescaling(1./255),
     base_model,
-    layers.Dense(4, activation='softmax')  # 4 classes
+    layers.Dense(1, activation='sigmoid')  # ✅ Right for binary
 ])
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+# model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
+# model = models.Sequential([
+#     layers.Input(shape=IMG_SIZE + (3,)),
+#     layers.Rescaling(1./255),
+#     base_model,
+#     layers.Dense(1, activation='sigmoid')  # Binary classifier
+# ])
+# model = load_model("mobilenetv2_animal.h5")
+# model.trainable = True
+# model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 # Callbacks
 cb = [
-    callbacks.EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True),
-    callbacks.ModelCheckpoint("best_model.keras", save_best_only=True)
+    # callbacks.EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True),
+    callbacks.ModelCheckpoint("cat_best_model.h5", save_best_only=True)
 ]
 
 # ----------------------
@@ -147,15 +177,19 @@ with tf.device('/GPU:0'):
     history = model.fit(train_ds, validation_data=val_ds, epochs=EPOCHS, callbacks=cb)
 
 # Evaluate
+# y_true = np.concatenate([y.numpy() for _, y in val_ds_raw])
+# y_true = np.argmax(y_true, axis=1)
+
+# y_pred_probs = model.predict(val_ds)
+# y_pred = np.argmax(y_pred_probs, axis=1)
 y_true = np.concatenate([y.numpy() for _, y in val_ds_raw])
-y_true = np.argmax(y_true, axis=1)
-
 y_pred_probs = model.predict(val_ds)
-y_pred = np.argmax(y_pred_probs, axis=1)
-
+y_pred = (y_pred_probs > 0.5).astype(int).flatten()
 # Classification report
 print(confusion_matrix(y_true, y_pred))
-print(classification_report(y_true, y_pred, target_names=class_labels))
+# print(classification_report(y_true, y_pred, target_names=class_labels))
+print(classification_report(y_true, y_pred))
+
 
 # Confusion matrix plot
 cm = confusion_matrix(y_true, y_pred)
@@ -190,4 +224,5 @@ plt.tight_layout()
 plt.show()
 
 # Save Final Model
-model.save("mobilenetv2_animal.h5")
+model.save("mobilenetv2_animal_cat.h5")
+2
