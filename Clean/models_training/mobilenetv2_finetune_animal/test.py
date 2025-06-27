@@ -2,10 +2,10 @@ import keras
 import numpy as np
 from PIL import Image
 
-MODEL_PATH = "mobilenetv2_animal.h5"
-IMG_PATH = "image2.png"
+MODEL_PATH = "cat_best_model.h5"
+IMG_PATH = "IMG_6127.JPG"
 IMG_SIZE = (160, 160)
-CLASS_NAMES = ["monkey", "cat", "squirrel", "snake"]
+CLASS_NAMES = ["cat"]
 
 model = keras.models.load_model(MODEL_PATH)
 

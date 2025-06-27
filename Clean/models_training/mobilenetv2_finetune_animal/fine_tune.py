@@ -225,4 +225,3 @@ plt.show()
 
 # Save Final Model
 model.save("mobilenetv2_animal_cat.h5")
-2
