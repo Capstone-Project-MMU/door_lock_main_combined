@@ -1,15 +1,11 @@
 import gpiozero 
 import time
 import sys
-RELAY_PIN=17
+RELAY_PIN=27 #17
 # active_high=False ? relay is ON when GPIO is LOW
-relay = gpiozero.OutputDevice(RELAY_PIN, active_high=False, initial_value=False)
+relay = gpiozero.OutputDevice(RELAY_PIN, active_high=True, initial_value=False)
 
-while True:
-    
+def yes():    
     relay.on()   # GPIO LOW ? turns relay ON (active low)
-    print(relay.value)
-    time.sleep(1)
+    time.sleep(3)
     relay.off()  # GPIO HIGH ? turns relay OFF
-    print(relay.value)
-    time.sleep(1)

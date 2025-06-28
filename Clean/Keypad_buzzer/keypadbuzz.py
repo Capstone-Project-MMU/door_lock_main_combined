@@ -1,8 +1,9 @@
 from gpiozero import DigitalOutputDevice, DigitalInputDevice, Buzzer
 import time
 import requests
+from solenoid_test import yes
 
-YOUR_PI_IP = "192.168.88.111"
+YOUR_PI_IP = "192.168.10.92"
 
 # GPIO pin setup (BCM numbering)
 ROW_PINS = [5, 6, 13, 19]     # 4 rows
@@ -51,6 +52,7 @@ def correct_buzz():
     print("Access Granted")
     buzzer.on()
     time.sleep(1)
+    yes()
     buzzer.off()
 
 def main():

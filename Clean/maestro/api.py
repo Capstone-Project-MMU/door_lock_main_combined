@@ -14,7 +14,7 @@ import os
 """"
 uvicorn api:app --host 0.0.0.0 --port 8080 --log-config log.ini
 """
-YOUR_PI_IP = "192.168.10.111"
+YOUR_PI_IP = "192.168.10.92"
                 
 app = FastAPI()
 
