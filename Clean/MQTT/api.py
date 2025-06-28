@@ -7,7 +7,7 @@ import paho.mqtt.publish as publish
 app = FastAPI() 
 
 
-MQTT_BROKER = "192.168.10.92"
+MQTT_BROKER = "192.168.1.107"
 MQTT_TOPIC = "home/text_message"
 MQTT_USER = "myuser"    
 MQTT_PASS = "mypassword"

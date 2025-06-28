@@ -5,6 +5,7 @@ import mediapipe as mp
 import face_recognition
 import numpy as np
 from face_utils import recognize_face  
+import requests
 import os
 """
 uvicorn api:app --host 0.0.0.0 --port 8083
@@ -14,7 +15,7 @@ docker run \
     -p 8083:8083 \
     face_recognize
 """
-
+YOUR_PI_IP = "192.168.1.107"
 
 def logger_creation():
     log_dir = "logs"
@@ -56,6 +57,7 @@ async def recognize(file: UploadFile = File(...)):
     # x, y, width, height, face = faces[0]
     is_moh = bool(recognize_face(frame, reference_encoding))  # Convert numpy.bool_ to Python bool
     #logger.debug(f"[recognition] match : {is_moh} ")
+    requests.post(f"http://{YOUR_PI_IP}:8000/send-word", json={"word": "Recognition: Complete -> Mohtady"})
     return {"match": is_moh}
 
 
